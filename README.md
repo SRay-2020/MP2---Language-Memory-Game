@@ -70,8 +70,6 @@ The website is laid out in a very straight forward style, it will contain one ma
 
 Wireframes - 
 
-<iframe width="1920" height="1740" src="https://xd.adobe.com/embed/da8d833e-9bee-43ef-8108-22c7602dc193-8fde/" frameborder="0" allowfullscreen></iframe>
-
 
 Differences between final design and wireframes:
 
