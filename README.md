@@ -1,9 +1,11 @@
 MILESTONE PROJECT 2 - Language Acquisition Memory Game - Interactive Front End
 
-Project Summary
-This website has been designed and created to showcase the work and services of ‘Celtic Pottery Workshop’, a traditional pottery company, who would like to migrate their business online. The website was built utilising a mobile first design process and has been made to ensure that it is fully responsive across all range of media devices.
-Contents -
-STRATEGY & BUSINESS GOALS
+Project Summary:
+The goal of this project will be to design and create a simple pattern matching memory game using JavaScript, HTML and CSS. The main goal for both the user and the site owner will be to have a game that is enjoyable to play. I will also include a 'language acquisition' component to this memory game which will highlight the versatility of this type of project and how it can be utilised for educational purposes while still being enjoyable which should expand the appeal of this website to a wider audience. 
+
+Contents - 
+
+STRATEGY & SITE OWNER GOALS
 
 USER STORIES
 
@@ -11,7 +13,7 @@ OWNER STORIES
 
 SCOPE
 
-SCTRUCTURE
+STRUCTURE
 
 SKELETON
 
@@ -21,11 +23,11 @@ FEATURES
 
 FUTURE FEATURES
 
-TECNOLOGIES USED
+TECHNOLOGIES USED
 
 TESTING
 
-BUG FIXS
+BUG FIXES
 
 IMPLEMENTATION ISSUES
 
@@ -61,7 +63,7 @@ Display of work
 
 Content specifications -
 
-SCTRUCTURE
+STRUCTURE
 
 The website is laid out in a very straight forward style, it contains four pages and there is a focus of all pages to lead to a direct contact to the owners of the business. The four pages are :
 
@@ -173,3 +175,5 @@ Credits given:
 Acknowledgements 
 
 Mockups
+
+
