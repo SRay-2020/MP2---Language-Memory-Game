@@ -12,7 +12,7 @@ min-height: 100vh;}
 
 body {
 margin: 0;    
-background-color: radial-gradient(#fafdff, #4c94d8);}
+background: radial-gradient(#fafdff, #4c94d8);}
 
 /*--Title--*/ 
 
@@ -29,7 +29,7 @@ font-size: 5rem;
 display: grid;
 grid-template-columns: repeat(4, auto);
 grid-gap: 25rem;   
-margin: 6rem;
+margin: 3rem;
 justify-content: center;
 }
 
