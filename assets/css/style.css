@@ -1,0 +1,25 @@
+/*--Google Fonts--*/ 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+/*--Global Styles--*/ 
+
+* {
+ font-family: 'Sriracha', cursive;
+ box-sizing: border-box;
+
+}
+
+body {
+
+margin: 0;    
+
+}
+
+/*--Title--*/ 
+
+.page-title {
+
+text-align: center;
+font-size: 5rem;
+}
