@@ -3,57 +3,56 @@ MILESTONE PROJECT 2 - Language Acquisition Memory Game - Interactive Front End
 Project Summary:
 The goal of this project will be to design and create a simple pattern matching memory game using JavaScript, HTML and CSS. The main goal for both the user and the site owner will be to have a game that is enjoyable to play. I will also include a 'language acquisition' component to this memory game which will highlight the versatility of this type of project and how it can be utilised for educational purposes while still being enjoyable which should expand the appeal of this website to a wider audience. 
 
-Contents - 
+#### Contents - 
 
-STRATEGY & SITE OWNER GOALS
+* **STRATEGY & SITE OWNER GOALS**
 
-USER STORIES
+* **USER STORIES**
 
-OWNER STORIES
+* **OWNER STORIES**
 
-SCOPE
+* **SCOPE**
 
-STRUCTURE
+* **STRUCTURE**
 
-SKELETON
+* **SKELETON**
 
-SURFACE
+* **SURFACE**
 
-FEATURES
+* **FEATURES**
 
-FUTURE FEATURES
+* **FUTURE FEATURES**
 
-TECHNOLOGIES USED
+* **TECHNOLOGIES USED**
 
-TESTING
+* **TESTING**
 
-BUG FIXES
+* **BUG FIXES**
 
-IMPLEMENTATION ISSUES
+* **IMPLEMENTATION ISSUES**
 
-DEPLOYMENT
+* **DEPLOYMENT**
 
-CREDITS
+* **CREDITS**
 
-CONTENT
+* **CONTENT**
 
-MEDIA
+* **MEDIA**
 
-ACKNOWLEDGEMENTS
+* **ACKNOWLEDGEMENTS**
 
-MOCKUPS
+* **MOCKUPS**
 
-Strategy -
-Business Goals:
-The main goal of this project is to create a static website for a business which has operated in traditional trading methods (high street) and has been forced to migrate its business to the online sphere to remain economically viable during the current COVID-19 pandemic. It aims to maintain the services which it has previously provided in a way which is informative and accessible to its target audience/customer base. Furthermore, it will attempt to create a space which is conducive to communication and engagement, where those in the art community can still feel a sense of inclusivity and interconnection.
+### **STRATEGY -**
 
-Target audience:
+#### SITE OWNER GOALS:
+Target audience: 
 
 User stories:
 
 Website user -
 
-Scope -
+### **SCOPE -**
 
 Functional specifications -
 
@@ -63,31 +62,17 @@ Display of work
 
 Content specifications -
 
-STRUCTURE
+### **STRUCTURE -**
 
-The website is laid out in a very straight forward style, it contains four pages and there is a focus of all pages to lead to a direct contact to the owners of the business. The four pages are :
+The website is laid out in a very straight forward style, it will contain one main landing page which will contain all content.
 
-Home/Landing Page
-
-Store Page
-
-Classes Page
-
-Contact Page
-
-SKELETON
+### **SKELETON -** 
 
 Differences between final design and wireframes:
 
 Landing Page -
 
-Store Page -
-
-Classes Page -
-
-Contact Page -
-
-SURFACE
+### **SURFACE -**
 
 Typography -
 
@@ -95,11 +80,11 @@ Colour scheme -
 
 Images -
 
-FEATURES
+### **FEATURES**
 
-FUTURE FEATURES
+### **FUTURE FEATURES**
 
-TECNOLOGIES USED
+### **TECNOLOGIES USED**
 
 HTML – For creating website
 
@@ -137,10 +122,9 @@ AutoPrefixer Online – For CSS parsing and adding vendor prefixes
 
 AmIResponsive (website) - To ensure site is responsive and create mockup
 
-TESTING
+### **TESTING**
 
 Code tests -
-
 
 Dev tests -
 
@@ -158,22 +142,24 @@ User story tests -
 
 Website -
 
-Bug fixs -
+### **BUG FIXES -**
 
-Deployment -
+### **IMPLEMENTATION ISSUES**
 
-Git Hub Pages -
+### **DEPLOYMENT -**
 
-Creating clone of project -
+Git Hub Pages:
 
-Credits -
+Creating clone of project:
+
+### **CREDITS -**
 
 General -
 
-Credits given:
+### **CONTENT**
 
-Acknowledgements 
+### **MEDIA**
 
-Mockups
+### **ACKNOWLEDGEMENTS**
 
-
+### **MOCKUPS**
