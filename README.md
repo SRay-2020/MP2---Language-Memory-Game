@@ -1,45 +1,175 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+MILESTONE PROJECT 2 - Language Acquisition Memory Game - Interactive Front End
 
-Welcome USER_NAME,
+Project Summary
+This website has been designed and created to showcase the work and services of ‘Celtic Pottery Workshop’, a traditional pottery company, who would like to migrate their business online. The website was built utilising a mobile first design process and has been made to ensure that it is fully responsive across all range of media devices.
+Contents -
+STRATEGY & BUSINESS GOALS
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+USER STORIES
 
-## Gitpod Reminders
+OWNER STORIES
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+SCOPE
 
-`python3 -m http.server`
+SCTRUCTURE
 
-A blue button should appear to click: *Make Public*,
+SKELETON
 
-Another blue button should appear to click: *Open Browser*.
+SURFACE
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+FEATURES
 
-A blue button should appear to click: *Make Public*,
+FUTURE FEATURES
 
-Another blue button should appear to click: *Open Browser*.
+TECNOLOGIES USED
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+TESTING
 
-## Updates Since The Instructional Video
+BUG FIXS
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+IMPLEMENTATION ISSUES
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+DEPLOYMENT
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+CREDITS
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+CONTENT
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+MEDIA
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ACKNOWLEDGEMENTS
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+MOCKUPS
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Strategy -
+Business Goals:
+The main goal of this project is to create a static website for a business which has operated in traditional trading methods (high street) and has been forced to migrate its business to the online sphere to remain economically viable during the current COVID-19 pandemic. It aims to maintain the services which it has previously provided in a way which is informative and accessible to its target audience/customer base. Furthermore, it will attempt to create a space which is conducive to communication and engagement, where those in the art community can still feel a sense of inclusivity and interconnection.
 
---------
+Target audience:
 
-Happy coding!
+User stories:
+
+Website user -
+
+Scope -
+
+Functional specifications -
+
+Navigation
+
+Display of work
+
+Content specifications -
+
+SCTRUCTURE
+
+The website is laid out in a very straight forward style, it contains four pages and there is a focus of all pages to lead to a direct contact to the owners of the business. The four pages are :
+
+Home/Landing Page
+
+Store Page
+
+Classes Page
+
+Contact Page
+
+SKELETON
+
+Differences between final design and wireframes:
+
+Landing Page -
+
+Store Page -
+
+Classes Page -
+
+Contact Page -
+
+SURFACE
+
+Typography -
+
+Colour scheme -
+
+Images -
+
+FEATURES
+
+FUTURE FEATURES
+
+TECNOLOGIES USED
+
+HTML – For creating website
+
+Css – For styling website
+
+Bootstrap – Used Bootstrap grid system, navbar, carousel and called classes
+
+JavaScript - 
+
+JQuery
+
+Adobe XD – For creating wireframes
+
+Adobe Photoshop – For editing images to consistent sizes and adjusting styles
+
+Git – Used for Version control
+
+Gitpod – For code editing and testing
+
+GitHub – For storing repository
+
+Chrome Dev Tools – For editing changes in real time and checking styles in different media sizes
+
+Chrome Lighthouse – For checking page performance
+
+W3C CSS - For validating CSS code
+
+W3C HTML – For validating and ensuring HTML code was correct/valid.
+
+Coolers (website) - For creating a custom colour palette for project
+
+FreeFormatter (website) - For validating HTML code
+
+AutoPrefixer Online – For CSS parsing and adding vendor prefixes
+
+AmIResponsive (website) - To ensure site is responsive and create mockup
+
+TESTING
+
+Code tests -
+
+
+Dev tests -
+
+Chrome Developer Tools -
+
+Chrome Lighthouse -
+
+Function tests -
+
+Response tests -
+
+Browser tests -
+
+User story tests -
+
+Website -
+
+Bug fixs -
+
+Deployment -
+
+Git Hub Pages -
+
+Creating clone of project -
+
+Credits -
+
+General -
+
+Credits given:
+
+Acknowledgements 
+
+Mockups
