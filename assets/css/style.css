@@ -1,10 +1,11 @@
 /*--Google Fonts--*/ 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); */
 
 /*--Global Styles--*/ 
 
 * {
- font-family: 'Sriracha', cursive;
+ font-family: 'VT323', cursive;
  box-sizing: border-box;}
 
 html {
@@ -12,32 +13,39 @@ min-height: 100vh;}
 
 body {
 margin: 0;    
-background: radial-gradient(#fafdff, #4c94d8);}
+background: radial-gradient(#fafdff, #629fc9);}
 
 /*--Title--*/ 
 
 .page-title {
-
+margin-top: 2rem;
+color: rgb(117, 180, 88);    
 text-align: center;
-font-size: 5rem;
+font-size: 10rem;
+font-weight: 500;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(0, 0, 0)
+
 }
 
-/*--Main Containers--*/
+/*--Information Containers--*/
 
 .game-container {
 
 display: grid;
 grid-template-columns: repeat(4, auto);
-grid-gap: 25rem;   
-margin: 3rem;
+grid-gap: 150px;   
+margin: 50px;
 justify-content: center;
 }
 
 .game-info-container {
+margin-top: 0;
 grid-column: 1 / -1;
 display: flex;
 justify-content: space-between;
 }
+
 
 /*--Titles--*/
 
@@ -46,3 +54,28 @@ justify-content: space-between;
 font-size: 3rem;
 }
 
+
+/* Cards Main */
+
+.card {
+
+position: relative;
+height: 225px;
+width: 175px;
+}
+
+/* Card Back */
+
+.card-back {
+
+    background-color: #0d3108;
+    border-color: black;
+    border-radius: 2.5px;
+
+
+}
+
+/* Card Front */ {
+
+
+}
