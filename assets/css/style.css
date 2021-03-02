@@ -33,7 +33,7 @@ font-weight: 500;
 .game-container {
 
 display: grid;
-grid-template-columns: repeat(4, auto);
+grid-template-columns: repeat(6, auto);
 grid-gap: 30px;   
 margin: 20px;
 justify-content: center;
@@ -51,7 +51,7 @@ justify-content: space-between;
 
 .game-info {
 
-font-size: 2rem;
+font-size: 2.5rem;
 }
 
 
@@ -79,13 +79,38 @@ border-color: black;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border-style: solid;
+border-color: black;
     border-radius: 12px;
+    border-width: 1px;
     width: 100%;
     height: 100%;
     display: flex;
-   
+    backface-visibility: hidden;
+}
+
+/* Card Visible */
+
+.card.visible .card-back {
+    transform: rotateY(-180deg);
+}
+
+.card.visible .card-front {
+transform: rotateY(0);
 
 }
+
+
+.card-front {
+transform: rotateY(180deg);
+background-color: bisque;
+border-style: solid;
+border-color: black;
+ border-width: 2px;
+display: flex;
+position: relative;
+}
+
 
 /* Fence Style */
 
@@ -95,12 +120,39 @@ border-color: black;
     width: 7.75rem;
 }
 
-
 /* Question Mark Style */
 
 .question-mark {
+transform: translateY(25px);
+transition: transform 100ms ease-in-out;
+align-self: flex-start;   
+width: 100px;
+height: 120px;
+}
 
- align-self: center;   
- width: 150px;
- height: 150px;
+.card-back:hover .question-mark {
+
+width: 50%;
+height: 50%;
+transform: scale(.5);
+}
+
+
+/* Card Fronts */
+
+.animal-name {
+    
+justify-content: center;
+transform: translateY(50px); 
+font-weight: 500;
+font-size: 2.5rem;
+}
+
+.animal-image {
+position: absolute;
+width: 85%;
+height: 65%;
+transform: translateY(-8px);
+
+
 }
