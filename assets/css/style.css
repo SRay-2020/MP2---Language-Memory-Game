@@ -1,6 +1,6 @@
 /*--Google Fonts--*/ 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
 /*--Global Styles--*/ 
 
@@ -37,6 +37,7 @@ grid-template-columns: repeat(6, auto);
 grid-gap: 30px;   
 margin: 20px;
 justify-content: center;
+perspective: 500px;
 }
 
 .game-info-container {
@@ -80,7 +81,7 @@ border-color: black;
     align-items: center;
     overflow: hidden;
     border-style: solid;
-border-color: black;
+    border-color: black;
     border-radius: 12px;
     border-width: 1px;
     width: 100%;
@@ -91,15 +92,13 @@ border-color: black;
 
 /* Card Visible */
 
-.card.visible .card-back {
+.card:hover .card-back {
     transform: rotateY(-180deg);
 }
 
-.card.visible .card-front {
+.card:hover .card-front {
 transform: rotateY(0);
-
 }
-
 
 .card-front {
 transform: rotateY(180deg);
@@ -141,18 +140,25 @@ transform: scale(.5);
 /* Card Fronts */
 
 .animal-name {
-    
+font-family: 'RocknRoll One', sans-serif;
 justify-content: center;
-transform: translateY(50px); 
+transform: translateY(60px); 
 font-weight: 500;
-font-size: 2.5rem;
+font-size: 2rem;
 }
 
 .animal-image {
 position: absolute;
-width: 85%;
-height: 65%;
-transform: translateY(-8px);
+width: 96%;
+height: 78%;
+transform: translateY(-18px);
+}
 
 
+.animal-name-long  {
+font-family: 'RocknRoll One', sans-serif;
+justify-content: center;
+transform: translateY(60px); 
+font-weight: 500;
+font-size: 1.70rem;
 }
