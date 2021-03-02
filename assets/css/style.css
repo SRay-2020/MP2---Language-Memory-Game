@@ -18,10 +18,10 @@ background: radial-gradient(#fafdff, #629fc9);}
 /*--Title--*/ 
 
 .page-title {
-margin-top: 2rem;
+margin-top: .5rem;
 color: rgb(117, 180, 88);    
 text-align: center;
-font-size: 10rem;
+font-size: 7rem;
 font-weight: 500;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: rgb(0, 0, 0)
@@ -34,8 +34,8 @@ font-weight: 500;
 
 display: grid;
 grid-template-columns: repeat(4, auto);
-grid-gap: 150px;   
-margin: 50px;
+grid-gap: 30px;   
+margin: 20px;
 justify-content: center;
 }
 
@@ -51,7 +51,7 @@ justify-content: space-between;
 
 .game-info {
 
-font-size: 3rem;
+font-size: 2rem;
 }
 
 
@@ -60,22 +60,47 @@ font-size: 3rem;
 .card {
 
 position: relative;
-height: 225px;
-width: 175px;
+height: 175px;
+width: 120px;
 }
 
 /* Card Back */
 
 .card-back {
+background-color: #0d3108;
+border-color: black;
+}
 
-    background-color: #0d3108;
-    border-color: black;
-    border-radius: 2.5px;
+/* Card Front */ 
 
+.card-face {
+
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+   
 
 }
 
-/* Card Front */ {
+/* Fence Style */
+
+.fence {
+
+    position: absolute;
+    width: 7.75rem;
+}
 
 
+/* Question Mark Style */
+
+.question-mark {
+
+ align-self: center;   
+ width: 150px;
+ height: 150px;
 }
