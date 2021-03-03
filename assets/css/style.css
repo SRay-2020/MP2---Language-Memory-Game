@@ -13,13 +13,13 @@ min-height: 100vh;}
 
 body {
 margin: 0;    
-background: radial-gradient(#fafdff, #629fc9);}
+background: radial-gradient(#fafdff, #89EAFB);}
 
 /*--Title--*/ 
 
 .page-title {
 margin-top: .5rem;
-color: rgb(117, 180, 88);    
+color: #88924F;    
 text-align: center;
 font-size: 7rem;
 font-weight: 500;
@@ -132,7 +132,7 @@ font-size: 12rem;
 /* Card Back */
 
 .card-back {
-background-color: #0d3108;
+background-color: #38563f;
 border-color: black;
 }
 
