@@ -97,6 +97,9 @@ class MixOrMatch {
 
         else
             this.cardMisMatch(card, this.cardToCheck);
+
+
+            this.cardToCheck = null;
     }
 
     cardMatch(card1, card2){
@@ -105,21 +108,19 @@ this.matchedCards.push(card2);
 card1.classList.add('matched');
 card2.classList.add('matched');
 this.audioController.match();
-if(this.matchedCards.length === this.cardsArray)
+if(this.matchedCards.length === this.cardsArray.length)
 this.victory();
     }
 
-    cardMisMatch(card){
+    cardMisMatch(card1, card2){
 
+        this.busy = true;
+        setTimeout(() => {
+card1.classList.remove('visible');
+card2.classList.remove('visible');
+this.busy = false;
+    }, 1000);
     }
-
-
-
-
-
-
-
-
 
 
 
@@ -131,15 +132,18 @@ this.victory();
 
     // Game Over 
 
-    startCountDown() {
-        return setInterval(() => {
-            this.timeReamining--;
-            this.timer.innerText = this.timeReamining;
-            if (this.timeReamining === 0)
-                this.gameOver();
-        }, 1000);
+   startCountDown(){
+return setInterval(() => {
+    this.timeRemaining--;
+    this.timer.innerText = this.timeRemaining;
+    if(this.timeRemaining === 0)
+    this.gameOver();
+}, 1000);
 
-    }
+}
+
+
+
     gameOver() {
         clearInterval(this.countDown);
         this.audioController.gameOver();
@@ -149,10 +153,10 @@ this.victory();
     // Victory 
 
     victory() {
-
         clearInterval(this.countDown);
         this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
+        this.hideCards();
     }
 
 
@@ -168,8 +172,8 @@ this.victory();
     }
 
     canFlipCard(card) {
-        return true;
-        // return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
+       
+        return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
     }
 }
 
