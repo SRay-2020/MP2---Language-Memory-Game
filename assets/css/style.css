@@ -5,6 +5,7 @@
 /*--Global Styles--*/ 
 
 * {
+
  font-family: 'VT323', cursive;
  box-sizing: border-box;}
 
@@ -13,15 +14,17 @@ min-height: 100vh;}
 
 body {
 margin: 0;    
-background: radial-gradient(#fafdff, #89EAFB);}
+background: radial-gradient( #ffffff, #3ebfe0);
+}
 
 /*--Title--*/ 
 
 .page-title {
+font-family:'RocknRoll One', sans-serif; 
 margin-top: .5rem;
-color: #88924F;    
+color: #0F4C5C;    
 text-align: center;
-font-size: 7rem;
+font-size: 5.5rem;
 font-weight: 500;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: rgb(0, 0, 0)
@@ -96,7 +99,7 @@ justify-content: center;
 align-items: center;
 /* transform: translateY(-8rem); */
 z-index: 100;
-color: rgb(199, 0, 40);
+color: #5F0F40;
 font-family:'RocknRoll One', sans-serif; 
 /* font-family: 'VT323', cursive; */
 }
@@ -132,7 +135,7 @@ font-size: 12rem;
 /* Card Back */
 
 .card-back {
-background-color: #38563f;
+background-color: #3f612d;
 border-color: black;
 }
 
