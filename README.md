@@ -87,6 +87,11 @@ Typography -
 
 Colour scheme -
 
+Used Coolers.com for getting consisent and contrasting colours for site 
+
+<img src="assets/images/colourframes.png">
+
+
 Images -
 
 ### **FEATURES**
