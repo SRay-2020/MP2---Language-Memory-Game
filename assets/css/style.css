@@ -234,7 +234,7 @@ font-size: 1.70rem;
 /* Medium Media Query */
 
 
-@media (max-width:1100px) {
+@media (max-width:1190px) {
 .game-container {
     grid-template-columns: repeat(4, auto);
 }
@@ -256,7 +256,7 @@ font-size: 1.70rem;
         font-size: 0;
       }
     to {background-color: rgba(0, 0, 0, 0.945);
-        font-size: 5rem;}
+        font-size: 4rem;}
 }
 
 .overlay-text-small {
@@ -269,13 +269,12 @@ font-size: 5rem;
 }
 
 }
+/* Medium Query Size  */
 
-/* Media Query Smallest */
 
-
-@media (max-width:600px) {
+@media (max-width:850px) {
 .game-container {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(4, auto);
 }
 .game-info-container {
    flex-direction: column;
@@ -287,6 +286,8 @@ font-size: 5rem;
     display: flex;
     flex-direction: column;
     animation: overlay-grow 500ms forwards;
+    font-size: 1.75rem;
+    text-align: center;
 }
 
 @keyframes overlay-grow {
@@ -306,4 +307,118 @@ font-size: 3rem;
 font-family: 'VT323', cursive;   
 font-size: 2rem;
 }
+
+.page-title {
+font-size: 3.5rem;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query Smaller */
+
+
+@media (max-width:600px) {
+.game-container {
+    grid-template-columns: repeat(2, auto);
+}
+.game-info-container {
+   flex-direction: column;
+   align-items: center; 
+}
+
+
+.overlay-text.visible {
+    display: flex;
+    flex-direction: column;
+    animation: overlay-grow 500ms forwards;
+      font-size: 2rem;
+    text-align: center;
+}
+
+@keyframes overlay-grow {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
+      }
+    to {background-color: rgba(0, 0, 0, 0.945);
+        font-size: 3.5rem;}
+}
+
+.overlay-text-small {
+font-size: 3rem;
+}
+
+#game-over-text {
+font-family: 'VT323', cursive;   
+font-size: 2rem;
+}
+
+.page-title {
+font-size: 2.25rem;
+
+}
+}
+
+
+/* Media Query Smallest */
+
+
+@media (max-width:480px) {
+.game-container {
+    grid-template-columns: repeat(2, auto);
+}
+.game-info-container {
+   flex-direction: column;
+   align-items: center; 
+}
+
+.overlay-text.visible {
+    display: flex;
+    flex-direction: column;
+    animation: overlay-grow 500ms forwards;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+@keyframes overlay-grow {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
+      }
+    to {background-color: rgba(0, 0, 0, 0.945);
+        font-size: 2rem;}
+}
+
+.overlay-text-small {
+font-size: 1rem;
+}
+
+#game-over-text {
+font-family: 'VT323', cursive;   
+font-size: 1.25rem;
+justify-content: center;
+}
+
+
+.page-title {
+font-size: 2.25rem;
+}
+
+.game-info {
+
+    font-size: 1.75rem;
+
+}
+
+
 }

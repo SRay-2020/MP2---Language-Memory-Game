@@ -3,6 +3,13 @@
 ## Project Summary:
 ### The goal of this project will be to design and create a simple pattern matching memory game using JavaScript, HTML and CSS. The main goal for both the user and the site owner will be to have a game that is enjoyable to play. I will also include a 'language acquisition' component to this memory game which will highlight the versatility of this type of project and how it can be utilised for educational purposes while still being enjoyable which should expand the appeal of this website to a wider audience. 
 
+
+### **MOCKUPS**
+
+<img src="assets/images/mockup.png">
+
+A digital render of how the site would look on different devices and screen sizes 
+
 ### **SKELETON -** 
 
 Wireframes - 
@@ -176,4 +183,4 @@ General -
 
 ### **ACKNOWLEDGEMENTS**
 
-### **MOCKUPS**
+
