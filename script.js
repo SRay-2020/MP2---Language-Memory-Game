@@ -1,3 +1,15 @@
+// User Name Prompt 
+
+let customerName = prompt("Please enter your name", "<name goes here>");
+
+// function getUserName(){
+// var playerName = prompt("Hello New Player. Please enter your name:");
+// document.getElementById('output').innerHTML;
+// }
+
+
+
+
 // Audio Controler 
 class AudioController {
     constructor() {
@@ -47,6 +59,7 @@ class MixOrMatch {
         this.audioController = new AudioController();
     }
     startGame() {
+        this.getUserName;
         this.cardToCheck = null;
         this.totalClicks = 0;
         this.timeRemaining = this.totalTime;
@@ -153,9 +166,12 @@ return setInterval(() => {
     // Victory 
 
     victory() {
+        let customerName;
         clearInterval(this.countDown);
         this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
+        // document.getElementById("winnerText").innerHTML =
+        // "Hello " + customerName + "You won! :) ";
         this.hideCards();
     }
 
@@ -217,3 +233,18 @@ if (document.readyState === 'loading') {
 } else {
     ready();
 }
+
+// Rewriting Username in overylays 
+
+// function userYourName() {
+
+// if(playerName = true) {
+// document.getElementById('winnerText').innerHTML=`Congratulations ${playerName}! Click to restart`;
+// }
+// else {
+// document.getElementById('winnerText').innerHTML=(`Congratulations! Click to restart`);
+// }
+
+// }
+                  
+
