@@ -1,12 +1,6 @@
 // User Name Prompt 
 
-let customerName = prompt("Please enter your name", "<name goes here>");
-
-// function getUserName(){
-// var playerName = prompt("Hello New Player. Please enter your name:");
-// document.getElementById('output').innerHTML;
-// }
-
+// let customerName = prompt("Please enter your name", "<name goes here>");
 
 
 
@@ -47,7 +41,7 @@ class AudioController {
     }
 }
 
-// Select Pairs 
+// Start Game & Select Pairs
 
 class MixOrMatch {
     constructor(totalTime, cards) {
@@ -135,10 +129,6 @@ this.busy = false;
     }, 1000);
     }
 
-
-
-
-
     getCardType(card) {
         return card.getElementsByClassName('animal-image')[0].src;
     }
@@ -152,10 +142,7 @@ return setInterval(() => {
     if(this.timeRemaining === 0)
     this.gameOver();
 }, 1000);
-
 }
-
-
 
     gameOver() {
         clearInterval(this.countDown);
@@ -193,12 +180,7 @@ return setInterval(() => {
     }
 }
 
-
-
-
-
-
-// Ready/Start Game Function 
+// Ready Overylays
 function ready() {
 
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
@@ -212,8 +194,6 @@ function ready() {
             overlay.classList.remove('visible');
             game.startGame();
 
-            // let audioController = new AudioController();
-            // audioController.startMusic();
 
         });
     });
@@ -234,17 +214,6 @@ if (document.readyState === 'loading') {
     ready();
 }
 
-// Rewriting Username in overylays 
 
-// function userYourName() {
-
-// if(playerName = true) {
-// document.getElementById('winnerText').innerHTML=`Congratulations ${playerName}! Click to restart`;
-// }
-// else {
-// document.getElementById('winnerText').innerHTML=(`Congratulations! Click to restart`);
-// }
-
-// }
                   
 
