@@ -153,12 +153,9 @@ return setInterval(() => {
     // Victory 
 
     victory() {
-        let customerName;
         clearInterval(this.countDown);
         this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
-        // document.getElementById("winnerText").innerHTML =
-        // "Hello " + customerName + "You won! :) ";
         this.hideCards();
     }
 
@@ -216,5 +213,5 @@ if (document.readyState === 'loading') {
 }
 
 
-                  
+                
 
