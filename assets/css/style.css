@@ -94,7 +94,7 @@ right: 0;
 bottom: 0;
 justify-content: center;
 align-items: center;
-/* transform: translateY(-8rem); */
+/* transform: translateY(-8rem);  */
 z-index: 100;
 color: #5F0F40;
 font-family:'RocknRoll One', sans-serif; 
@@ -112,7 +112,7 @@ font-family:'RocknRoll One', sans-serif;
         background-color: rgba(0, 0, 0, 0);
         font-size: 0;
       }
-    to {background-color: rgba(0, 0, 0, 0.945);
+    to {background-color: rgba(0, 0, 0, 0.98);
         font-size: 7rem;}
 }
  
@@ -125,8 +125,19 @@ font-family: 'VT323', cursive;
 font-size: 12rem;
 }
 
+/* Over lay edits */
 
+.tut-text {
+font-size: 3rem;
+color: #d1ab00;
+justify-content: center;
+align-items: center;
+transform: translateY(-5rem); 
+}
 
+.start-click-text {
+transform: translateY(-10rem); 
+}
 
 
 /* Card Back */

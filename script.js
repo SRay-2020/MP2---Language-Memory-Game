@@ -184,6 +184,7 @@ return setInterval(() => {
 function ready() {
 
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
+    //  let overlays = Array.from(document.getElementsByClassName('tutorial-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
     let game = new MixOrMatch(100, cards);
 
