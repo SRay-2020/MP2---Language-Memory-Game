@@ -433,8 +433,23 @@ font-size: 2.25rem;
 
 /* Navbar */
 
-.navbar-style {
-text-decoration: none;
-font-size: 3rem;
-color: blanchedalmond;
+.header {
+  width: 100%;
+  height: 5rem;  
 }
+
+.nav-item {
+text-align: center;
+text-decoration: none;
+}
+
+.header-links {
+float: top;
+display: flex;
+text-decoration: none;
+}
+
+.li {
+   list-style-type:none;
+   padding: 2rem 2rem 2rem 2rem;
+   }
