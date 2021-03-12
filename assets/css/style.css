@@ -86,6 +86,7 @@ animation: wiggle 1s linear infinite 500ms;
 /* Overlay Tutorial */
 
 .overlay-text {
+text-align: center;
 display: none;
 position: fixed;
 top: 0;
@@ -132,7 +133,7 @@ font-size: 3rem;
 color: #d1ab00;
 justify-content: center;
 align-items: center;
-transform: translateY(-5rem); 
+transform: translateY(-2rem); 
 }
 
 .start-click-text {
@@ -263,7 +264,7 @@ font-size: 1.70rem;
         background-color: rgba(0, 0, 0, 0);
         font-size: 0;
       }
-    to {background-color: rgba(0, 0, 0, 0.945);
+    to {background-color: rgba(0, 0, 0, 0.98);
         font-size: 4rem;}
 }
 
@@ -289,13 +290,12 @@ font-size: 5rem;
    align-items: center; 
 }
 
-
 .overlay-text.visible {
     display: flex;
     flex-direction: column;
     animation: overlay-grow 500ms forwards;
     font-size: 1.75rem;
-    text-align: center;
+    text-align: center!important;
 }
 
 @keyframes overlay-grow {
@@ -303,12 +303,12 @@ font-size: 5rem;
         background-color: rgba(0, 0, 0, 0);
         font-size: 0;
       }
-    to {background-color: rgba(0, 0, 0, 0.945);
+    to {background-color: rgba(0, 0, 0, 0.98);
         font-size: 3.5rem;}
 }
 
 .overlay-text-small {
-font-size: 3rem;
+font-size: 1.5rem;
 }
 
 #game-over-text {
@@ -358,12 +358,12 @@ font-size: 3.5rem;
         background-color: rgba(0, 0, 0, 0);
         font-size: 0;
       }
-    to {background-color: rgba(0, 0, 0, 0.945);
+    to {background-color: rgba(0, 0, 0, 0.98);
         font-size: 3.5rem;}
 }
 
 .overlay-text-small {
-font-size: 3rem;
+font-size: 1.5rem;
 }
 
 #game-over-text {
@@ -394,8 +394,9 @@ font-size: 2.25rem;
     display: flex;
     flex-direction: column;
     animation: overlay-grow 500ms forwards;
-    font-size: 1.25rem;
+    font-size: 3rem;
     text-align: center;
+   
 }
 
 @keyframes overlay-grow {
@@ -403,17 +404,18 @@ font-size: 2.25rem;
         background-color: rgba(0, 0, 0, 0);
         font-size: 0;
       }
-    to {background-color: rgba(0, 0, 0, 0.945);
-        font-size: 2rem;}
+    to {background-color: rgba(0, 0, 0, 0.98);
+        font-size: 3rem;}
 }
 
 .overlay-text-small {
-font-size: 1rem;
+font-size: 1.5rem;
 }
+
 
 #game-over-text {
 font-family: 'VT323', cursive;   
-font-size: 1.25rem;
+font-size: 2rem;
 justify-content: center;
 }
 
@@ -423,59 +425,135 @@ font-size: 2.25rem;
 }
 
 .game-info {
-
     font-size: 1.75rem;
+}
+
+}
+
+/* Media Query Final Smallest */
+
+
+@media (max-width:350px) {
+.game-container {
+    grid-template-columns: repeat(2, auto);
+}
+.game-info-container {
+   flex-direction: column;
+   align-items: center; 
+}
+
+.overlay-text.visible {
+    display: flex;
+    flex-direction: column;
+    animation: overlay-grow 500ms forwards;
+    font-size: 2rem;
+    text-align: center;
+   
+}
+
+@keyframes overlay-grow {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
+      }
+    to {background-color: rgba(0, 0, 0, 0.98);
+        font-size: 2rem;}
+}
+
+.overlay-text-small {
+font-size: 1.25rem;
+}
+
+
+#game-over-text {
+font-family: 'VT323', cursive;   
+font-size: 2rem;
+justify-content: center;
+}
+
+
+.page-title {
+font-size: 2.25rem;
+}
+
+.game-info {
+    font-size: 1.75rem;
+}
 
 }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Navbar */
 
 .header {
-  width: 100%;
-  height: 5rem;  
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
 }
 
-
+/* ul */
 .header-buttons {
 display: flex;
+justify-content: space-evenly;
 text-decoration: none;
 flex-direction: row;
 align-items: center;
 align-content: center;
-}
-
-
-.nav-item {
 position: relative;
 text-decoration: none;
 list-style-type: none;
-text-align: center;
-display: grid;
-grid-template-columns: repeat(3, auto);
-/* grid-gap: 3px;    */
-/* margin-left: 2rem; */
-justify-content: center;
-padding-left: 25rem;
+padding: 1rem;
+}
+
+/* li */
+
+.nav-link {
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family:'RocknRoll One', sans-serif; 
 }
 
 .active {
-
-    color: rgb(255, 217, 0);
-}
-
-.ul.li {
-
-    padding-inline: 15rem;
+    color: #d1ab00;
 }
 
 .btn-style {
-
     height: 2rem;
     width: 5rem;
     border-radius: 10px;
-    background-color: rgb(90, 90, 161);
-    color: gainsboro;
+    background-color:  #5F0F40;
+}
+
+/* Footer Styles */
+
+
+.copyright-text {
+padding-top: 2rem;
+padding-bottom: 1rem;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 500;
+color: black;
 }
