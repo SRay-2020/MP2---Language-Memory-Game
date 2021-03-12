@@ -550,9 +550,57 @@ font-family:'RocknRoll One', sans-serif;
 /* Contact Page */ 
 
 .btn-space 
-{padding-top: 1rem;}
+{
+    
+padding-top: 11rem;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+
+.contact-page-button {
+
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 10px;
+    background-color:  #5F0F40;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+font-family:'RocknRoll One', sans-serif; 
+
+}
+
+form {
+width:100%;
+height:450px;
+margin:auto;
+position:relative;
+padding-right: 15rem;
+padding-left: 15rem;
+font-family:'RocknRoll One', sans-serif; 
+
+}
+ input {
+width:100%;
+height: 35px;
+font-family:'RocknRoll One', sans-serif; 
+ }
+
+ textarea {
+
+width:100%;
+height: 150px;
+font-family:'RocknRoll One', sans-serif; 
+ }
+
+
 
 .form-row >.col {
+
 padding-top: .5rem;}
 
 
@@ -575,6 +623,10 @@ font-size: 4.5rem;
 
 }
 
+
+
+
+
 /* Form STYLES */
 
 .form-group {
@@ -583,6 +635,7 @@ font-size: 4.5rem;
     padding-left: 10rem;
     padding-right: 10rem;
     margin-top: 2rem;
+    font-size: 4rem;
 }
 
 .form-control {
@@ -592,7 +645,6 @@ font-size: 4.5rem;
 
 
 .contact-page-button {
-
 align-items: center;
 align-content: center;
 
@@ -610,4 +662,9 @@ font-size: 1.25rem;
 font-weight: 500;
 color: black;
 }
+
+.contact-footer {
+    padding-top: 0;
+}
+
 
