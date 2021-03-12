@@ -546,6 +546,59 @@ font-family:'RocknRoll One', sans-serif;
     background-color:  #5F0F40;
 }
 
+
+/* Contact Page */ 
+
+.btn-space 
+{padding-top: 1rem;}
+
+.form-row >.col {
+padding-top: .5rem;}
+
+
+.contact-title {
+
+text-align: center;
+font-family:'RocknRoll One', sans-serif; 
+margin-top: 0;
+color: #0F4C5C;    
+text-align: center;
+font-size: 3.5rem;
+font-weight: 500;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(0, 0, 0)
+}
+
+.contact-heading {
+font-family:'RocknRoll One', sans-serif; 
+font-size: 4.5rem;
+
+}
+
+/* Form STYLES */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 2rem;
+}
+
+.form-control {
+    margin-top: 1rem;
+
+}
+
+
+.contact-page-button {
+
+align-items: center;
+align-content: center;
+
+}
+
+
 /* Footer Styles */
 
 
@@ -557,3 +610,4 @@ font-size: 1.25rem;
 font-weight: 500;
 color: black;
 }
+
