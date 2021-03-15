@@ -244,7 +244,124 @@ font-weight: 500;
 font-size: 1.70rem;
 }
 
-/* Medium Media Query */
+/* Form STYLES */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+.form-control {
+margin-top: 1rem;
+
+}
+
+
+.contact-page-button {
+align-items: center;
+align-content: center;
+
+}
+
+
+
+/* Contact Page */ 
+
+.btn-space 
+{
+    
+padding-top: 11rem;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+
+.contact-page-button {
+
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 10px;
+    background-color:  #5F0F40;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+font-family:'RocknRoll One', sans-serif; 
+
+}
+
+form {
+width:100%;
+height:450px;
+margin:auto;
+position:relative;
+padding-right: 15rem;
+padding-left: 15rem;
+font-family:'RocknRoll One', sans-serif; 
+
+}
+ input {
+width:100%;
+height: 35px;
+font-family:'RocknRoll One', sans-serif; 
+ }
+
+ textarea {
+
+width:100%;
+height: 150px;
+font-family:'RocknRoll One', sans-serif; 
+ }
+
+
+
+.form-row >.col {
+
+padding-top: .5rem;}
+
+
+.contact-title {
+
+text-align: center;
+font-family:'RocknRoll One', sans-serif; 
+margin-top: 0;
+color: #0F4C5C;    
+text-align: center;
+font-size: 3.5rem;
+font-weight: 500;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(0, 0, 0)
+}
+
+.contact-heading {
+font-family:'RocknRoll One', sans-serif; 
+font-size: 4.5rem;
+}
+
+.text-center {
+font-size: 4rem;
+}
+
+
+
+
+
+/* Largest Media Query */
+
+@media (max-width:1500x) {
+.form-group {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+}
+
+/* Large Media Query */
 
 
 @media (max-width:1190px) {
@@ -284,6 +401,11 @@ font-size: 5rem;
 
  .welcome-text {
 font-size: 6rem;
+}
+
+.form-group {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 
@@ -335,11 +457,23 @@ font-size: 3.5rem;
 font-size: 5rem;
 }
 
+.form-group {
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+
+.contact-heading {
+font-size: 3.5rem;
+}
+
+.text-center {
+font-size: 2.5rem;
 }
 
 
 
-
+}
 
 
 
@@ -389,6 +523,11 @@ font-size: 2rem;
 .page-title {
 font-size: 2.25rem;
 
+}
+
+.form-group {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 }
 
@@ -566,108 +705,6 @@ font-family:'RocknRoll One', sans-serif;
 }
 
 
-/* Contact Page */ 
-
-.btn-space 
-{
-    
-padding-top: 11rem;
-margin: 0;
-position: absolute;
-top: 50%;
-left: 50%;
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-}
-
-
-.contact-page-button {
-
-    height: 3.5rem;
-    width: 9rem;
-    border-radius: 10px;
-    background-color:  #5F0F40;
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-font-family:'RocknRoll One', sans-serif; 
-
-}
-
-form {
-width:100%;
-height:450px;
-margin:auto;
-position:relative;
-padding-right: 15rem;
-padding-left: 15rem;
-font-family:'RocknRoll One', sans-serif; 
-
-}
- input {
-width:100%;
-height: 35px;
-font-family:'RocknRoll One', sans-serif; 
- }
-
- textarea {
-
-width:100%;
-height: 150px;
-font-family:'RocknRoll One', sans-serif; 
- }
-
-
-
-.form-row >.col {
-
-padding-top: .5rem;}
-
-
-.contact-title {
-
-text-align: center;
-font-family:'RocknRoll One', sans-serif; 
-margin-top: 0;
-color: #0F4C5C;    
-text-align: center;
-font-size: 3.5rem;
-font-weight: 500;
--webkit-text-stroke-width: 2px;
--webkit-text-stroke-color: rgb(0, 0, 0)
-}
-
-.contact-heading {
-font-family:'RocknRoll One', sans-serif; 
-font-size: 4.5rem;
-
-}
-
-
-
-
-
-/* Form STYLES */
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    margin-top: 2rem;
-    font-size: 4rem;
-}
-
-.form-control {
-    margin-top: 1rem;
-
-}
-
-
-.contact-page-button {
-align-items: center;
-align-content: center;
-
-}
 
 
 /* Footer Styles */
