@@ -24,10 +24,6 @@
 <script type="text/javascript">
    (function(){
       emailjs.init("user_7C19SPKdk0ij4WBOAFa3f");
-      emailjs.send("service_motdhpp","template_kjnqbzq", {
-name: "Stephen", notes: "My Feedback is..."
-      });
-
    })();
 </script>
 </head>
@@ -72,7 +68,7 @@ name: "Stephen", notes: "My Feedback is..."
 <h2 aria-hidden="false" style="display: none;">Heading only for Screen Readers</h2>
 <div>
 <!-- Bootstrap Form -->
-            <form class="form-group">
+            <form class="form-group" onsubmit="return sendMail(this);">
               <input
                 type="text"
                 name="name"
@@ -91,8 +87,8 @@ name: "Stephen", notes: "My Feedback is..."
               />
               <textarea
                 rows="5"
-                name="projectsummary"
-                id="projectsummary"
+                name="feedbacksummary"
+                id="feedback-summary"
                 placeholder="Feedback"
                 class="form-control "
                 required
@@ -116,8 +112,6 @@ name: "Stephen", notes: "My Feedback is..."
 
         <!-- container ending below -->
     </div>
-
-
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
                 crossorigin="anonymous"></script>
@@ -128,7 +122,7 @@ name: "Stephen", notes: "My Feedback is..."
                 integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
                 crossorigin="anonymous"></script>
        
-
+<script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
