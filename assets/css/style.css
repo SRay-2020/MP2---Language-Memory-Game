@@ -95,12 +95,16 @@ right: 0;
 bottom: 0;
 justify-content: center;
 align-items: center;
-/* transform: translateY(-8rem);  */
 z-index: 100;
 color: #5F0F40;
 font-family:'RocknRoll One', sans-serif; 
-/* font-family: 'VT323', cursive; */
 }
+
+.welcome-text {
+transform: translateY(-4rem); 
+font-size: 9rem;
+}
+
 
 .overlay-text.visible {
     display: flex;
@@ -137,7 +141,7 @@ transform: translateY(-2rem);
 }
 
 .start-click-text {
-transform: translateY(-10rem); 
+transform: translateY(0rem); 
 }
 
 
@@ -277,6 +281,12 @@ font-family: 'VT323', cursive;
 font-size: 5rem;
 }
 
+
+ .welcome-text {
+font-size: 6rem;
+}
+
+
 }
 /* Medium Query Size  */
 
@@ -320,6 +330,11 @@ font-size: 2rem;
 font-size: 3.5rem;
 
 }
+
+ .welcome-text {
+font-size: 5rem;
+}
+
 }
 
 
@@ -426,6 +441,10 @@ font-size: 2.25rem;
 
 .game-info {
     font-size: 1.75rem;
+}
+
+ .welcome-text {
+font-size: 3.5rem;
 }
 
 }
