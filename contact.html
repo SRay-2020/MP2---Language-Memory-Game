@@ -18,6 +18,18 @@
     <script src="script.js" async></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_7C19SPKdk0ij4WBOAFa3f");
+      emailjs.send("service_motdhpp","template_kjnqbzq", {
+name: "Stephen", notes: "My Feedback is..."
+      });
+
+   })();
+</script>
 </head>
 
 <!-- Body -->
