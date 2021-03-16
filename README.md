@@ -13,42 +13,42 @@ A digital render of how the site would look on different devices and screen size
 
 ### Contents - 
 
-* [**STRATEGY**]
+* [**STRATEGY**](#strategy)
 
-* [**USER STORIES**]
+* [**USER STORIES**](#user-stories)
 
 * [**SCOPE**](#scope)
 
 * [**STRUCTURE**](#structure)
 
-* **SKELETON**
+* [**SKELETON**](#skeleton)
 
-* **SURFACE**
+* [**SURFACE**](surface)
 
-* **FEATURES**
+* [**FEATURES**](features)
 
-* **FUTURE FEATURES**
+* [**FUTURE FEATURES**](future-features)
 
-* **TECHNOLOGIES USED**
+* [**TECHNOLOGIES USED**](technologies-used)
 
-* **TESTING**
+* [**TESTING**](#testing)
 
-* **BUG FIXES**
+* [**BUG FIXES**](#bug-fixes)
 
-* **IMPLEMENTATION ISSUES**
+* [**IMPLEMENTATION ISSUES**](#implementation-issues)
 
-* **DEPLOYMENT**
+* [**DEPLOYMENT**](#deployment)
 
-* **CREDITS**
+* [**CREDITS**](#credits)
 
-* **CONTENT**
+* [**CONTENT**](#content)
 
-* **MEDIA**
+* [**MEDIA**](#media)
 
-* **ACKNOWLEDGEMENTS**
+* [**ACKNOWLEDGEMENTS**](#awknowledgements)
 
 
-### [**STRATEGY -**](#strategy)
+### **STRATEGY -**
 
 #### SITE OWNER GOALS:
 The main goal of this project is to create an interactive website which hosts a single player, pattern matching game with a language acquisition component. This game should be fun for any user and should make the user want to return to the website to play again. This will hopefully be achieved by using fun and unique images and music throughout this project. The language acquisition component will hopefully broaden the appeal of this game to users, educators and parents which should will mean a higher base of users and more people who could potential enjoy playing the game and have fun!  
@@ -59,7 +59,7 @@ Target audience
 - Parents of young game users
 - Educators
 
-#### User stories(#user-stories)
+### **User stories -**
 
 Website user -
 
@@ -93,7 +93,7 @@ Website Owner -
 16. As the website owner I want the users to return to my website
 17. As the website owner I want users to be able to contact me to share their feedback
 
-### **SCOPE -**(#scope)
+### **SCOPE -**
 
 This project will be a minimal viable product containing the aspects that are vital to functionality and an acceptable standard of aesthetic value, but with lots of opportunity to develop further in the future.
 
