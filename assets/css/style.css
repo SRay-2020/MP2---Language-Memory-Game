@@ -2,7 +2,6 @@
 /*--Global Styles--*/ 
 
 * {
-
  font-family: 'VT323', cursive;
  box-sizing: border-box;}
 
@@ -14,76 +13,7 @@ margin: 0;
 background: radial-gradient( #ffffff, #3ebfe0);
 }
 
-/*--Title--*/ 
-
-.page-title {
-font-family:'RocknRoll One', sans-serif; 
-margin-top: .5rem;
-color: #0F4C5C;    
-text-align: center;
-font-size: 5.5rem;
-font-weight: 500;
--webkit-text-stroke-width: 2px;
--webkit-text-stroke-color: rgb(0, 0, 0)
-
-}
-
-/*--Information Containers--*/
-
-.game-container {
-
-display: grid;
-grid-template-columns: repeat(6, auto);
-grid-gap: 30px;   
-margin: 20px;
-justify-content: center;
-perspective: 500px;
-}
-
-.game-info-container {
-margin-top: 0;
-grid-column: 1 / -1;
-display: flex;
-justify-content: space-between;
-}
-
-
-/*--Titles--*/
-
-.game-info {
-
-font-size: 2.5rem;
-}
-
-
-/* Cards Main */
-
-.card {
-
-position: relative;
-height: 175px;
-width: 120px;
-}
-
-.card.matched .card-value {
-animation: wiggle 1s linear infinite 500ms;
-}
-
-@keyframes wiggle {
-0%, 100% {
-    transform: rotate(0);
-}
-
-25% {
-    transform: rotate(-10deg);
-}
-
-75% {
-    transform: rotate(10deg);
-}
-}
-
-/* Overlay Tutorial */
+/* Overlay Welcome & Tutorial */
 
 .overlay-text {
 text-align: center;
@@ -104,7 +34,6 @@ font-family:'RocknRoll One', sans-serif;
 transform: translateY(-4rem); 
 font-size: 9rem;
 }
-
 
 .overlay-text.visible {
     display: flex;
@@ -130,7 +59,7 @@ font-family: 'VT323', cursive;
 font-size: 12rem;
 }
 
-/* Over lay edits */
+/* Overlay edits */
 
 .tut-text {
 font-size: 3rem;
@@ -142,6 +71,70 @@ transform: translateY(-2rem);
 
 .start-click-text {
 transform: translateY(0rem); 
+}
+
+/*--Title--*/ 
+
+.page-title {
+font-family:'RocknRoll One', sans-serif; 
+margin-top: .5rem;
+color: #0F4C5C;    
+text-align: center;
+font-size: 5.5rem;
+font-weight: 500;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(0, 0, 0)
+}
+
+/*--Information Containers--*/
+
+.game-container {
+display: grid;
+grid-template-columns: repeat(6, auto);
+grid-gap: 30px;   
+margin: 20px;
+justify-content: center;
+perspective: 500px;
+}
+
+.game-info-container {
+margin-top: 0;
+grid-column: 1 / -1;
+display: flex;
+justify-content: space-between;
+}
+
+/*--Titles--*/
+
+.game-info {
+font-size: 2.5rem;
+}
+
+
+/* Cards Main */
+
+.card {
+position: relative;
+height: 175px;
+width: 120px;
+}
+
+.card.matched .card-value {
+animation: wiggle 1s linear infinite 500ms;
+}
+
+@keyframes wiggle {
+0%, 100% {
+    transform: rotate(0);
+}
+
+25% {
+    transform: rotate(-10deg);
+}
+
+75% {
+    transform: rotate(10deg);
+}
 }
 
 
@@ -244,33 +237,10 @@ font-weight: 500;
 font-size: 1.70rem;
 }
 
-/* Form STYLES */
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30%;
-    padding-right: 30%;
-    margin-top: 2rem;
-    font-size: 4rem;
-}
-
-.form-control {
-margin-top: 1rem;
-
-}
-
-
-.contact-page-button {
-align-items: center;
-align-content: center;
-
-}
-
-
 
 /* Contact Page */ 
 
+/* Button */
 .btn-space 
 {
     
@@ -294,6 +264,27 @@ transform: translate(-50%, -50%);
     font-size: 1rem;
 font-family:'RocknRoll One', sans-serif; 
 
+}
+
+/* Form STYLES */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+.form-control {
+margin-top: 1rem;
+
+}
+
+.contact-page-button {
+align-items: center;
+align-content: center;
 }
 
 form {
@@ -320,14 +311,11 @@ font-family:'RocknRoll One', sans-serif;
  }
 
 
-
 .form-row >.col {
-
 padding-top: .5rem;}
 
 
 .contact-title {
-
 text-align: center;
 font-family:'RocknRoll One', sans-serif; 
 margin-top: 0;
@@ -336,7 +324,7 @@ text-align: center;
 font-size: 3.5rem;
 font-weight: 500;
 -webkit-text-stroke-width: 2px;
--webkit-text-stroke-color: rgb(0, 0, 0)
+-webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .contact-heading {
@@ -349,7 +337,61 @@ font-size: 4rem;
 }
 
 
+/* Navbar */
 
+.header {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+/* ul */
+.header-buttons {
+display: flex;
+justify-content: space-evenly;
+text-decoration: none;
+flex-direction: row;
+align-items: center;
+align-content: center;
+position: relative;
+text-decoration: none;
+list-style-type: none;
+padding: 1rem;
+}
+
+/* li */
+.nav-link {
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family:'RocknRoll One', sans-serif; 
+}
+
+.active {
+    color: #d1ab00;
+}
+
+.btn-style {
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    background-color:  #5F0F40;
+}
+
+/* Footer Styles */
+
+.copyright-text {
+padding-top: 2rem;
+padding-bottom: 1rem;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 500;
+color: black;
+}
+
+.contact-footer {
+    padding-top: 0;
+}
 
 
 /* Largest Media Query */
@@ -357,12 +399,10 @@ font-size: 4rem;
 @media (max-width:1500x) {
 .form-group {
     padding-left: 20%;
-    padding-right: 20%;
-}
+    padding-right: 20%;}
 }
 
 /* Large Media Query */
-
 
 @media (max-width:1190px) {
 .game-container {
@@ -372,7 +412,6 @@ font-size: 4rem;
    flex-direction: column;
    align-items: center; 
 }
-
 
 .overlay-text.visible {
     display: flex;
@@ -398,7 +437,6 @@ font-family: 'VT323', cursive;
 font-size: 5rem;
 }
 
-
  .welcome-text {
 font-size: 6rem;
 }
@@ -408,10 +446,9 @@ font-size: 6rem;
     padding-right: 20%;
 }
 
-
 }
-/* Medium Query Size  */
 
+/* Large Query Size  */
 
 @media (max-width:850px) {
 .game-container {
@@ -450,7 +487,6 @@ font-size: 2rem;
 
 .page-title {
 font-size: 3.5rem;
-
 }
 
  .welcome-text {
@@ -462,7 +498,6 @@ font-size: 5rem;
     padding-right: 17%;
 }
 
-
 .contact-heading {
 font-size: 3.5rem;
 }
@@ -470,18 +505,9 @@ font-size: 3.5rem;
 .text-center {
 font-size: 2.5rem;
 }
-
-
-
 }
 
-
-
-
-
-
-
-/* Media Query Smaller */
+/* Medium Query Size */
 
 
 @media (max-width:600px) {
@@ -531,8 +557,7 @@ font-size: 2.25rem;
 }
 }
 
-
-/* Media Query Smallest */
+/* Small Query Size */
 
 
 @media (max-width:480px) {
@@ -588,7 +613,7 @@ font-size: 3.5rem;
 
 }
 
-/* Media Query Final Smallest */
+/* Smallest Query Size */
 
 
 @media (max-width:350px) {
@@ -639,88 +664,3 @@ font-size: 2.25rem;
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Navbar */
-
-.header {
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-}
-
-/* ul */
-.header-buttons {
-display: flex;
-justify-content: space-evenly;
-text-decoration: none;
-flex-direction: row;
-align-items: center;
-align-content: center;
-position: relative;
-text-decoration: none;
-list-style-type: none;
-padding: 1rem;
-}
-
-/* li */
-
-.nav-link {
-text-decoration: none;
-color: rgb(255, 255, 255);
-font-family:'RocknRoll One', sans-serif; 
-}
-
-.active {
-    color: #d1ab00;
-}
-
-.btn-style {
-    height: 2rem;
-    width: 5rem;
-    border-radius: 10px;
-    background-color:  #5F0F40;
-}
-
-
-
-
-/* Footer Styles */
-
-
-.copyright-text {
-padding-top: 2rem;
-padding-bottom: 1rem;
-text-align: center;
-font-size: 1.25rem;
-font-weight: 500;
-color: black;
-}
-
-.contact-footer {
-    padding-top: 0;
-}
-
-
