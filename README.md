@@ -13,15 +13,13 @@ A digital render of how the site would look on different devices and screen size
 
 ### Contents - 
 
-* **STRATEGY & SITE OWNER GOALS**
+* [**STRATEGY**]
 
-* **USER STORIES**
+* [**USER STORIES**]
 
-* **OWNER STORIES**
+* [**SCOPE**](#scope)
 
-* **SCOPE**
-
-* **STRUCTURE**
+* [**STRUCTURE**](#structure)
 
 * **SKELETON**
 
@@ -50,7 +48,7 @@ A digital render of how the site would look on different devices and screen size
 * **ACKNOWLEDGEMENTS**
 
 
-### <u>**STRATEGY -**</ul>
+### [**STRATEGY -**](#strategy)
 
 #### SITE OWNER GOALS:
 The main goal of this project is to create an interactive website which hosts a single player, pattern matching game with a language acquisition component. This game should be fun for any user and should make the user want to return to the website to play again. This will hopefully be achieved by using fun and unique images and music throughout this project. The language acquisition component will hopefully broaden the appeal of this game to users, educators and parents which should will mean a higher base of users and more people who could potential enjoy playing the game and have fun!  
@@ -61,7 +59,7 @@ Target audience
 - Parents of young game users
 - Educators
 
-#### User stories 
+#### User stories(#user-stories)
 
 Website user -
 
@@ -95,7 +93,7 @@ Website Owner -
 16. As the website owner I want the users to return to my website
 17. As the website owner I want users to be able to contact me to share their feedback
 
-### **SCOPE -**
+### **SCOPE -**(#scope)
 
 This project will be a minimal viable product containing the aspects that are vital to functionality and an acceptable standard of aesthetic value, but with lots of opportunity to develop further in the future.
 
@@ -111,7 +109,7 @@ Content specifications:
 - Custom music
 - Win/Lose overlays
 
-### **STRUCTURE -**
+### [**STRUCTURE -**](#structure)
 
 The website is laid out over three pages. 
 These pages are 
@@ -120,9 +118,9 @@ These pages are
 3.Contact Page 
 
 The two game pages (1 + 2)contain three overlays, these will instruct the player: 
--how to play
--tell users if they have won the game
--tell users if they have lost the game
+- How to play
+- Tell users if they have won the game
+- tell users if they have lost the game
 When a player clicks on this first overlay (after being prompted on screen to click) the game will begin. When this happens the background music will start and a timer, which will start at 100 seconds, will begin to countdown to zero. When the timer reaches zero the game will end. 
 
 Pages 1 & 2 will contain 12 cards which will resemble playing cards. These cards will each contain a different image of an animal (repeating twice) to create six pairs of cards. Each pair will have the name of the animal that it contains written on it, one will have the English and the other will have the Irish (or French on Page 2) on it. On the reverse side all cards will be identical, containing a farmyard fence and a question mark. When a player clicks on a card it will flip over and they must select a second card to find it's match. If the player finds all 6 matches before the 100 seconds is over then they will win the game and the 'Victory' overlay will appear on screen. If they cannot find both matches before the 100 seconds elapses then they will lose and the 'Lose' overlay will appear on screen. A 'click to restart' prompt will appear on both of these screens. 
