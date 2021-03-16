@@ -5,27 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1.0">
     <meta name="description" content="Irish Language Acquisition Game, built using JavaScript">
-    <title> MEMORY GAME</title>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet"> -->
+    <title> Language Memory Game</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" defer rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" defer rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
 <link rel="shortcut icon" href="assets/images/favicon4.png" type="image/png"> 
-
     <script src="script.js" async></script>
-
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <!-- Body -->
-
 <body>
     <!-- Main container -->
     <div class="container">
-        <!-- Header -->
+        <!-- Navigation Buttons -->
         <header>
             <ul class="header-buttons">
                 <li>
@@ -49,12 +44,12 @@
                 -Match two cards to make a pair <br><br> -Match all cards to win! <br><br> (Available in Irish or French) </span><div class="start-click-text">Click to Start!</div>
         </div>
 
-        <!-- Overlay 3 Game Over  -->
+        <!-- Overlay 2 Game Over  -->
         <div id="game-over-text" class="overlay-text">GAME OVER!
             <span class="overlay-text-small ">Click to Restart</span>
         </div>
 
-        <!-- Overlay 4 Victory -->
+        <!-- Overlay 3 Victory -->
         <div id="victory-text" class="overlay-text">VICTORY, <br> YOU WIN!
             <span class="overlay-text-small">Click to Restart</span>
         </div>
@@ -64,23 +59,21 @@
         <h1 class="page-title">French Language<br>
             Memory Game</h1>
 
-        <!-- Main Container -->
+        <!-- Game Container -->
         <div class="game-container">
-
+        <!-- Game Info Container -->
             <div class="game-info-container">
                 <!-- Timer Info Section -->
                 <div class="game-info info-box-1">Game Timer:
                     <span id="game-timer">100
                     </span>
                 </div>
-
                 <!-- Flips Info Section -->
                 <div class="game-info info-box-2">Number of flips:
                     <span id="turn-amount">0
                     </span>
                 </div>
             </div>
-
             <!-- Cards Section -->
 
             <!-- Card 1 -->
@@ -92,10 +85,8 @@
 
                 <div class="card-front card-face">
                     <img class="animal-image" src="assets/images/pigimg.png" alt="Image of pig">
-
                     <span class="animal-name-long">Cochon</span>
                 </div>
-
             </div>
 
             <!-- Card 2 -->
@@ -107,7 +98,6 @@
 
                 <div class="card-front card-face">
                     <img class="animal-image" src="assets/images/pigimg.png" alt="Image of pig">
-
                     <span class="animal-name">Pig</span>
                 </div>
             </div>
@@ -122,10 +112,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/horseimg.png" alt="Image of horse">
-
                     <span class="animal-name">Cheval</span>
                 </div>
-
             </div>
 
             <!-- Card 4 -->
@@ -138,10 +126,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/horseimg.png" alt="Image of horse">
-
                     <span class="animal-name">Horse</span>
                 </div>
-
             </div>
 
             <!-- Card 5 -->
@@ -154,10 +140,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/Goattest.png" alt="Image of goat">
-
                     <span class="animal-name">Goat</span>
                 </div>
-
             </div>
 
             <!-- Card 6 -->
@@ -170,10 +154,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/Goattest.png" alt="Image of goat">
-
                     <span class="animal-name-long">Chèvre</span>
                 </div>
-
             </div>
 
             <!-- Card 7 -->
@@ -186,10 +168,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/sheepimgnew.png" alt="Image of Sheep">
-
                     <span class="animal-name-long">Mouton</span>
                 </div>
-
             </div>
 
             <!-- Card 8 -->
@@ -202,10 +182,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/sheepimgnew.png" alt="Image of Sheep">
-
                     <span class="animal-name">Sheep </span>
                 </div>
-
             </div>
 
             <!-- Card 9 -->
@@ -218,10 +196,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/catijmg1.png" alt="Image of cat">
-
                     <span class="animal-name">Cat</span>
                 </div>
-
             </div>
 
             <!-- Card 10 -->
@@ -234,10 +210,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/catijmg1.png" alt="Image of cat">
-
                     <span class="animal-name">Chat</span>
                 </div>
-
             </div>
 
             <!-- Card 11 -->
@@ -250,10 +224,8 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/cowimg1.png" alt="Image of cow">
-
                     <span class="animal-name">Vache</span>
                 </div>
-
             </div>
 
             <!-- Card 12 -->
@@ -266,12 +238,9 @@
                 <div class="card-front card-face">
 
                     <img class="animal-image" src="assets/images/cowimg1.png" alt="Image of cow">
-
                     <span class="animal-name">Cow </span>
                 </div>
-
             </div>
-
         </div>
         <!-- container ending below -->
     </div>
