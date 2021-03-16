@@ -109,7 +109,7 @@ Content specifications:
 - Custom music
 - Win/Lose overlays
 
-### [**STRUCTURE -**](#structure)
+### **STRUCTURE -**
 
 The website is laid out over three pages. 
 These pages are 
