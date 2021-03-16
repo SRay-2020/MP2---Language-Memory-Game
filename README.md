@@ -16,7 +16,9 @@ Wireframes -
 
 <img src="assets/images/MP2 - Wireframe.png">
 
-#### Contents - 
+Created at the outset of the project to direct the stylistic development. 
+
+### Contents - 
 
 * **STRATEGY & SITE OWNER GOALS**
 
@@ -27,8 +29,6 @@ Wireframes -
 * **SCOPE**
 
 * **STRUCTURE**
-
-* **SKELETON**
 
 * **SURFACE**
 
@@ -54,14 +54,20 @@ Wireframes -
 
 * **ACKNOWLEDGEMENTS**
 
-* **MOCKUPS**
 
-### **STRATEGY -**
+### <u>**STRATEGY -**</ul>
 
 #### SITE OWNER GOALS:
-Target audience: 
+The main goal of this project is to create an interactive website which hosts a single player,pattern matching game with a language acquisition component. This game should be fun for any user and should make the user want to return to the website to play again. This will hopefully be achieved by using fun and unique images and music throughout this project. The language acquisition component will hopefully broaden the appeal of this game to users, eduactors and parents which should will mean a higher base of users and more people who could potential enjoy playing the game and have fun!  
 
-User stories:
+Target audience 
+- People who like games 
+- Early language learners
+- Young game users
+- Educators
+
+User stories 
+-
 
 Website user -
 
