@@ -25,11 +25,11 @@ A digital render of how the site would look on different devices and screen size
 
 * [**SURFACE**](surface)
 
-* [**FEATURES**](features)
+* [**FEATURES**](#features)
 
-* [**FUTURE FEATURES**](future-features)
+* [**FUTURE FEATURES**](#future-features)
 
-* [**TECHNOLOGIES USED**](technologies-used)
+* [**TECHNOLOGIES USED**](#technologies-used)
 
 * [**TESTING**](#testing)
 
@@ -48,7 +48,7 @@ A digital render of how the site would look on different devices and screen size
 * [**ACKNOWLEDGEMENTS**](#awknowledgements)
 
 
-### **STRATEGY -**
+### **STRATEGY **-
 
 #### SITE OWNER GOALS:
 The main goal of this project is to create an interactive website which hosts a single player, pattern matching game with a language acquisition component. This game should be fun for any user and should make the user want to return to the website to play again. This will hopefully be achieved by using fun and unique images and music throughout this project. The language acquisition component will hopefully broaden the appeal of this game to users, educators and parents which should will mean a higher base of users and more people who could potential enjoy playing the game and have fun!  
@@ -59,7 +59,7 @@ Target audience
 - Parents of young game users
 - Educators
 
-### **User stories -**
+### **User stories **-
 
 Website user -
 
@@ -93,7 +93,7 @@ Website Owner -
 16. As the website owner I want the users to return to my website
 17. As the website owner I want users to be able to contact me to share their feedback
 
-### **SCOPE -**
+### **SCOPE **-
 
 This project will be a minimal viable product containing the aspects that are vital to functionality and an acceptable standard of aesthetic value, but with lots of opportunity to develop further in the future.
 
@@ -109,7 +109,7 @@ Content specifications:
 - Custom music
 - Win/Lose overlays
 
-### **STRUCTURE -**
+### **STRUCTURE **-
 
 The website is laid out over three pages. 
 These pages are 
@@ -128,7 +128,7 @@ Pages 1 & 2 will contain 12 cards which will resemble playing cards. These cards
 The contact page (pg3) will contain a very simple feedback form that will send an email to the author of the website. When all fields are correctly filled out and the feedback has been successfully sent, a thank you message will appear in the feedback box. 
 
 
-### **SKELETON -** 
+### **SKELETON ** -
 
 Differences between final design and wireframes:
 
@@ -138,7 +138,7 @@ There were no major differences between the final design or the website and the 
 
 ##### Created at the outset of the project to direct the stylistic development. 
 
-### **SURFACE -**
+### **SURFACE **-
 
 Typography -
 Two fonts were chosen for this project - 
@@ -158,7 +158,7 @@ Images -
 A fun and interactive aesthetic was utilised for this project.  The desired effect would aim to make the user more comfortable and create an accessible space for any user to learn some new words for farm-yard animals in different languages, but more importantly have fun. All images were custom created by the author specifically for this project. 
 
 
-### **FEATURES**
+### **FEATURES **-
 
 - Media responsiveness on all device sizes
 - Navigation buttons that link to all pages
@@ -174,7 +174,7 @@ A fun and interactive aesthetic was utilised for this project.  The desired effe
 - Contact page has full functionality 
 - Contact page button submits user feedback
 
-### **FUTURE FEATURES**
+### **FUTURE FEATURES **-
 
 - User name prompt and input to be used and stored
 - User scores (number of flips) to be stored and displayed in a highscore field
@@ -184,7 +184,7 @@ A fun and interactive aesthetic was utilised for this project.  The desired effe
 - Game to include a mute music function
 
 
-### **TECNOLOGIES USED**
+### **TECNOLOGIES USED **-
 
 HTML – For creating website
 
@@ -227,7 +227,7 @@ AutoPrefixer Online – For CSS parsing and adding vendor prefixes
 
 AmIResponsive (website) - To ensure site is responsive and create mockup
 
-### **TESTING**
+### **TESTING **
 
 **Code tests -**
 
@@ -335,11 +335,11 @@ Website Owner -
 
 Website -
 
-### **BUG FIXES -**
+### **BUG FIXES **
 
-### **IMPLEMENTATION ISSUES**
+### **IMPLEMENTATION ISSUES **
 
-### **DEPLOYMENT -**
+### **DEPLOYMENT **-
 
 Git Hub Pages -
 
@@ -351,7 +351,7 @@ Creating clone of project -
 
 To create a clone of this project you can access it through the link onf Git Hub Repository, click the clipboard to copy the url, this can then be brought to the terminal when a new working directory can be set up and the clone saved. Once this is done you can type ‘git clone’ and paste the url and press enter and a new clone will be created.
 
-### **CREDITS -**
+### **CREDITS **-
 
 General -
     • HTML HEADER 
