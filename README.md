@@ -6,7 +6,7 @@
 
 ### **MOCKUPS**
 
-<img src="assets/images/mockup.png">
+<img src="assets/images/mediamockup1.png">
 
 A digital render of how the site would look on different devices and screen sizes 
 
@@ -96,7 +96,7 @@ Colour scheme -
 
 Used Coolers.com for getting consisent and contrasting colours for site 
 
-<img src="assets/images/colourframes.png">
+<img src="assets/images/coolorspalette1.png">
 
 
 Images -
