@@ -1,3 +1,6 @@
+// EmailJS email service
+// Code Institute Lessons
+
 function sendMail(contactForm) {
 emailjs.send("service_motdhpp","template_kjnqbzq",{
 "from_name": contactForm.name.value,
@@ -6,6 +9,7 @@ emailjs.send("service_motdhpp","template_kjnqbzq",{
 })
 .then( function(response) {
 
+// Stack Overflow lesson - return empty fields
 console.log("SUCCESS!", response);
 document.getElementById('fullname').value='';
 document.getElementById('email').value='';

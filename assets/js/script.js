@@ -1,10 +1,6 @@
-// User Name Prompt 
-
-// let customerName = prompt("Please enter your name", "<name goes here>");
-
-
-
+// Ref - Code Institute (Course content), PortExe (Video), Medium (Article), WebDev (Video), Invention Tricks (Video) - see README.md
 // Audio Controler 
+
 class AudioController {
     constructor() {
         this.bgMusic = new Audio('assets/music/BackMusic.wav')
@@ -15,11 +11,10 @@ class AudioController {
         this.bgMusic.volume = 0.5;
         this.bgMusic.loop = true;
     }
-
+    // Music Functions
     startMusic() {
         this.bgMusic.play();
     }
-
     stopMusic() {
         this.bgMusic.pause();
         this.bgMusic.currentTime = 0;
@@ -41,8 +36,7 @@ class AudioController {
     }
 }
 
-// Start Game & Select Pairs
-
+// 
 class MixOrMatch {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
@@ -52,6 +46,7 @@ class MixOrMatch {
         this.ticker = document.getElementById('turn-amount');
         this.audioController = new AudioController();
     }
+    //  Start Game Function
     startGame() {
         this.getUserName;
         this.cardToCheck = null;
@@ -80,7 +75,7 @@ class MixOrMatch {
 
     }
 
-
+    // Flip Cards Function
     flipCard(card) {
         if (this.canFlipCard(card)) {
             this.audioController.flip();
@@ -97,7 +92,7 @@ class MixOrMatch {
                 this.cardToCheck = card;
         }
     }
-
+// Check Cards for Match
     checkForCardMatch(card) {
         if (this.getCardType(card) === this.getCardType(this.cardToCheck))
             this.cardMatch(card, this.cardToCheck);
@@ -108,7 +103,7 @@ class MixOrMatch {
 
             this.cardToCheck = null;
     }
-
+// When Cards are Matched
     cardMatch(card1, card2){
 this.matchedCards.push(card1);
 this.matchedCards.push(card2);
@@ -128,13 +123,13 @@ card2.classList.remove('visible');
 this.busy = false;
     }, 1000);
     }
-
+// Card Identifiers for Matching
     getCardType(card) {
         return card.getElementsByClassName('animal-image')[0].src;
     }
 
-    // Game Over 
-
+   
+// Game Timer
    startCountDown(){
 return setInterval(() => {
     this.timeRemaining--;
@@ -144,6 +139,7 @@ return setInterval(() => {
 }, 1000);
 }
 
+ // Game Over Function
     gameOver() {
         clearInterval(this.countDown);
         this.audioController.gameOver();
@@ -151,7 +147,6 @@ return setInterval(() => {
     }
 
     // Victory 
-
     victory() {
         clearInterval(this.countDown);
         this.audioController.victory();
@@ -160,53 +155,41 @@ return setInterval(() => {
     }
 
 
-    // Card Shuffler - Fisher-Yates Algorithm
-
+    // Card Shuffler - (Fisher-Yates Algorithm)
     shuffleCards() {
-
         for (let i = this.cardsArray.length - 1; i > 0; i--) {
             let randomIndex = Math.floor(Math.random() * (i + 1));
             this.cardsArray[randomIndex].style.order = i;
             this.cardsArray[i].style.order = randomIndex;
         }
     }
-
     canFlipCard(card) {
-       
         return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
     }
 }
 
-// Ready Overylays
+// Ready Overylays & Starting Game
 function ready() {
-
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
-    //  let overlays = Array.from(document.getElementsByClassName('tutorial-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
     let game = new MixOrMatch(100, cards);
 
+// Click to Remove Overlay 
     overlays.forEach(overlay => {
-
         overlay.addEventListener('click', () => {
-
             overlay.classList.remove('visible');
             game.startGame();
-
-
         });
     });
-
+// Click to Flip Event
     cards.forEach(card => {
         card.addEventListener('click', () => {
-
             game.flipCard(card);
         });
     });
-
 }
-
+// Ensure game has loaded
 if (document.readyState === 'loading') {
-
     document.addEventListener('DOMContentLoaded', ready());
 } else {
     ready();
