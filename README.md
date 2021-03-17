@@ -229,7 +229,7 @@ AmIResponsive (website) - To ensure site is responsive and create mockup
 
 ### **TESTING**
 
-**Code tests -**
+#### **Code tests -**
 
 The CSS code was passed through W3C CSS Validator and final version contained no errors. It was also passed through AutoPrefixer Online to parse CSS and add vendor prefixes.
 
@@ -237,7 +237,7 @@ The HTML code was passed through W3C HTML Validator and FreeFormatter.com to ens
 
 The JavaScript was tested using debugging tests by the author throughout the development.
 
-**Dev tests -**
+#### **Dev tests -**
 
 (i)Chrome Developer Tools -
 
@@ -270,7 +270,7 @@ This change increased score from 92% to 100%.
 
 ** INSERT SCREENSHOTS HERE **
 
-**Function tests -**
+#### **Function tests -**
 
 This site was tested many times manually throughout the development process by the author and friends and family to ensure that it's functions behave exactly as they are intended to. This process was again repeated when hosted to ensure that there were no changes to functionality. 
 
@@ -561,43 +561,28 @@ Contact Page -
 
 
 
-Response tests -
+#### **Response tests -**
 
-The site was tested across all media query sizes and at all possible breaking points to ensure that a consistent and responsive experience was ensured for the user on any device. The author also used AmIResponsive.com to ensure that this was confirmed through an outside, objective source.
+The site was tested across all media query sizes and at all possible breaking points to ensure that a consistent and responsive experience was ensured for the user on any device. 
 
-Below are a list of the 
-- Test cases
-- Excpected behaviour
-- Observed Results
-- Summary of expected behaviour and results 
+The author also used AmIResponsive.com to ensure that this was confirmed through an outside, objective source.
 
 
+#### **Browser tests -**
+
+Though the sote was developed through Google Chrome, after it had been deployed online it was tested across all other major browsers to make sure that it was fully operational. These browsers included 
+- Chrome
+- Safari
+- Firefox
+- Opera
 
 
+#### **User story tests -**
 
-
-
-
-
-
-
-Browser tests -
-
-Though the sote was developed through Google Chrome, after it had been deployed online it was tested across all other major browsers to make sure that it was fully operational. These browsers included Chrome, Safari, Firefox and Opera.  
-
-Below are a list of the 
-- Test cases
-- Excpected behaviour
-- Observed Results
-- Summary of expected behaviour and results 
-
-
-User story tests -
-
-Website user -
+**Website user -**
 
 1. As a user I want a fun experience 
-- Game is fun to play 
+- Game is fun to play, it includes enjoyable and upbeat music and cute images of animals on every card.
 2. As a user I want to be able to play the game by being given the instructions needed but with as minimal instructions as possible
 - Game includes instructions in the startup overlay but doesn't overwhelm user with information
 3. As a website user I want to be able to navigate the website easily and intuitively
@@ -605,7 +590,7 @@ Website user -
 4. As a user I want a consistent playing experience, that is the same every time I come back to the website and on any device
 - Website has been tested at all different media sized and is fully responsive to changes while keeping consistent experience for user
 
-Early Language Users - 
+**Early Language Users -**
 
 5. As a language learner I want the words I am trying to learn to be displayed clearly
 - Words on cards are displayed clearly with good contrast
@@ -614,7 +599,7 @@ Early Language Users -
 7. As a language learner I want to play in multiple languages
 - Game is available to play in English/Irish & English/French
 
-Parents of Young Game Users - 
+**Parents of Young Game Users -**
 
 8. As the parent of a young game user I want my child to learn while playing a game
 - This game includes a simple language acquisition component which helps teach words to user
@@ -622,7 +607,7 @@ Parents of Young Game Users -
 - This game is safe and the content included is appropriate for younger users
 11. As the parent of a young game user I want my child to have fun learning
 
-Educators - 
+**Educators -**
 
 10. As an educator I want a learning resource that will engage my students
 - Through the use of custom graphics and music this website is engaging for users
@@ -631,7 +616,7 @@ Educators -
 12. As an educator I want a learning resource that is free and easy to access 
 - This game is free and easy to access and start playing across any platform
 
-Website Owner - 
+**Website Owner -**
 
 13. As the website owner I want the users to have fun playing the game 
 - This game is fun for users
@@ -648,15 +633,18 @@ Website Owner -
 
 ### **DEPLOYMENT**
 
-Git Hub Pages -
+**Git Hub Pages**
 
 This project was developed in the Gitpod development environment. I initialised the project by creating a new repository for the project in GitHub and used this as a storing point to push the project to at various points through out the development process. Using the git add function I staged my code at many times and used the Git Commit command to save all changes. Finally, I used the Git Push command to send all the changes back to my repository on GitHub.
 Git Hub Pages -
 After site was completed I deployed the website to GitHub Pages using the settings feature on my project repository, scrolling to GitHub pages, choosing master as source and then saving the new pages link.
 
-Creating clone of project -
+**Creating clone of project -**
 
 To create a clone of this project you can access it through the link onf Git Hub Repository, click the clipboard to copy the url, this can then be brought to the terminal when a new working directory can be set up and the clone saved. Once this is done you can type ‘git clone’ and paste the url and press enter and a new clone will be created.
+
+**Running Clone on local machine**
+
 
 ### **CREDITS**
 
