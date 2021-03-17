@@ -3,7 +3,7 @@
 ## Project Summary:
 ### The goal of this project will be to design and create a simple pattern matching memory game using JavaScript, HTML and CSS. The main goal for both the user and the site owner will be to have a game that is enjoyable to play. I will also include a 'language acquisition' component to this memory game which will highlight the versatility of this type of project and how it can be utilised for educational purposes while still being enjoyable which should expand the appeal of this website to a wider audience. 
 
-###Link to Live Site - (https://sray-2020.github.io/MP2---Language-Memory-Game/)
+### Link to Live Site - (https://sray-2020.github.io/MP2---Language-Memory-Game/)
 
 
 ### **MOCKUPS**
@@ -237,7 +237,7 @@ The CSS code was passed through W3C CSS Validator and final version contained no
 
 The HTML code was passed through W3C HTML Validator and FreeFormatter.com to ensure final version contained no errors.
 
-The JavaScript was tested using debugging tests by the author throughout the development.
+The JavaScript was tested using JSHint to ensure no errors included in final version. 
 
 #### **Dev tests -**
 
@@ -258,19 +258,19 @@ These changes included -
 1. Performance: 
     • Added ‘defer’ to the font styles to allow a faster load of base site 
     • Removing ‘unessecary CSS’ 
-These two changes increased score in Performance from 76% to 99%. 
+These two changes increased score in Performance from 76% to 97%. 
 2. Accessibility:
     • Added new colours to increase contrast to improve visability. 
 This change increased score in Accesibility from 86% to 100%. 
 3. Best Practices:
     • Images were changed to correct aspect ratio
     • Images that had been displayed at low resolution were replaced
-These two changes increased score in Performance from 86% to 99%. 
+These two changes increased score in Performance from 86% to 93%. 
 4. SEO:
     • Added meta description to document 
 This change increased score from 92% to 100%. 
 
-** INSERT SCREENSHOTS HERE **
+<img src="assets/images/lighthouse.png">
 
 #### **Function tests -**
 
@@ -541,28 +541,6 @@ Contact Page -
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### **Response tests -**
 
 The site was tested across all media query sizes and at all possible breaking points to ensure that a consistent and responsive experience was ensured for the user on any device. 
@@ -631,7 +609,17 @@ Though the sote was developed through Google Chrome, after it had been deployed 
 
 ### **BUG FIXES**
 
+The project contained three major bugs, these were - 
+
+BUG 1: Could not use 'a' element within the button tags due to an error on W3C markup validator. This bux was fixed by using a from instead of a an anchor tag and placing the button inside.
+
+BUG 2: Attribute 'defer' could not be used in link element (because there was no src link) to slow down when the Google fonts were loaded. No good fix was available for this so 'defer' was removed from this link and the performance of load was slightly reduced. 
+
+BUG 3: In CSS file a wrong media query width was included - this was deleted and there was no change to project (due to media size not being applicable). 
+
 ### **IMPLEMENTATION ISSUES**
+
+There were no outstanding implementation issues with this project.
 
 ### **DEPLOYMENT**
 
@@ -647,8 +635,7 @@ To create a clone of this project you can access it through the link onf Git Hub
 
 **Running Clone on local machine -**
 
-
-
+If you want to run this clone on a local machine you would go to the 'Clone' section on GitHub and click the url link in the HTTPS section. When you donwnload and unzip these files to your desktop you can then open them in your own IDE shell and save them as a new directory. 
 
 ### **CREDITS**
 
