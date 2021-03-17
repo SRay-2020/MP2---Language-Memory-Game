@@ -1,13 +1,14 @@
+/*jshint esversion: 6 */
 // Ref - Code Institute (Course content), PortExe (Video), Medium (Article), WebDev (Video), Invention Tricks (Video) - see README.md
 // Audio Controler 
 // Constructs new controller with new instances of wav files
 class AudioController {
     constructor() {
-        this.bgMusic = new Audio('assets/music/BackMusic.wav')
-        this.flipSound = new Audio('assets/music/newflipper.wav')
-        this.matchSound = new Audio('assets/music/matchSound.wav')
-        this.victorySound = new Audio('assets/music/winSound.wav')
-        this.gameOverSound = new Audio('assets/music/gameoverSound.wav')
+        this.bgMusic = new Audio('assets/music/BackMusic.wav');
+        this.flipSound = new Audio('assets/music/newflipper.wav');
+        this.matchSound = new Audio('assets/music/matchSound.wav');
+        this.victorySound = new Audio('assets/music/winSound.wav');
+        this.gameOverSound = new Audio('assets/music/gameoverSound.wav');
         this.bgMusic.volume = 0.5;
         this.bgMusic.loop = true;
     }
