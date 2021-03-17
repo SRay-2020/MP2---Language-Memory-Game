@@ -643,28 +643,77 @@ After site was completed I deployed the website to GitHub Pages using the settin
 
 To create a clone of this project you can access it through the link onf Git Hub Repository, click the clipboard to copy the url, this can then be brought to the terminal when a new working directory can be set up and the clone saved. Once this is done you can type ‘git clone’ and paste the url and press enter and a new clone will be created.
 
-**Running Clone on local machine**
+**Running Clone on local machine -**
+
+
 
 
 ### **CREDITS**
 
-General -
-    • HTML HEADER 
-    • HTML BODY
-    • HTML FOOTER
-    • CSS STYLES 
-    • CSS MEDIA QUERIES
-    • CSS FLEXBOX
-    • CSS ANIMATIONS/KEYFRAME
-    • CSS TRANSFORM/TRANSLATE
-    • CSS OVERLAYS
-    • CSS CONTACT FORM
-    • JS AUDIO CONTROLLERS
-    • JS START GAME
-    • JS FLIP CARDS/3D OBJECTS/Z-AXIS
-    • JS OVERLAYS
-    • JS EMAILJS
-    • JS JQUERY 
+#### **General Elements -** 
+
+- Code Institute (Course content & Slack Community)
+- The Complete JavaScript Course 2021: From Zero to Expert - Jonas Schmedtmann (Udemy)
+
+##### **Specific Elements -** 
+
+**Buttons** 
+- FDossena: (https://fdossena.com/?p=html5cool/buttons/i.frag)
+- W3Schools: (https://www.w3schools.com/css/css3_buttons.asp)
+- Bootsrap Docs: (https://getbootstrap.com/docs/4.0/components/buttons/)
+
+**Card Creation**
+– W3Schools: (https://www.w3schools.com/howto/howto_css_cards.asp)
+- Web Dev Simplified: (https://www.youtube.com/watch?v=28VfzEiJgy4&t=8s)
+- Tutorial Republic: (https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-cards.php)
+
+**CSS Animations/Transformation**
+-Web Dev Simplified: (https://www.youtube.com/watch?v=YszONjKpgg4)
+
+**CSS Flexbox** 
+- Web Dev Simplified: (https://www.youtube.com/watch?v=fYq5PXgSsbE)
+- Free Code Camp: (https://www.freecodecamp.org/news/learn-css-flexbox-in-5-minutes-b941f0affc34/)
+- CSS Tricks: (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+**Card Game JavaScript Functionality** 
+- Medium: (https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae)
+- Web Dev Simplified: (https://www.youtube.com/watch?v=28VfzEiJgy4&t=8s)
+- PorEXE: (https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=1385s)
+
+**JavaScript Audio Controller**
+- Invention Tricks: (https://www.youtube.com/watch?v=wffK2OIt8u0)
+- PorEXE: (https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=1385s)
+
+**Loading Javascript**
+- Flaviocopes.com: (https://flaviocopes.com/javascript-async-defer/)
+
+**Lighthouse Issues**
+- Web.dev: (https://web.dev/image-aspect-ratio/?utm_source=lighthouse&utm_medium=devtools)
+- 
+**Managing Overlays**
+- StackOverflow: (https://stackoverflow.com/questions/40311152/how-do-i-manage-multiple-overlays-on-different-buttons-clicks)
+
+**Form Submissions**
+- StackOverflow: (https://stackoverflow.com/questions/20416803/how-do-i-clear-the-previous-text-field-value-after-submitting-the-form-with-out)
+
+**Media Queries**
+– CSS Tricks: (https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- W3Schools: (https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+- Code Grepper: (https://www.codegrepper.com/code-examples/delphi/bootstrap+hide+image+on+mobile)
+
+**Adding Favicons to Website**
+- Dani Krossing: (https://www.youtube.com/watch?v=kEf1xSwX5D8)
+
+**README Editing**
+- Adam Pritchard: (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- Github Support: (https://github.community/t/link-to-a-section-in-another-readme-md-file/1130)
+- Next Day Video: (https://www.youtube.com/watch?v=2dAK42B7qtw/)
+
+#### **Other Elements -**
+
+- Cooler.com - Colour scheme generator: (https://www.coolors.co/)
+- BeepBox - Creating music: (https://www.beepbox.co)
+- EmailJS - Email service for form input: (https://www.emailjs.com)
 
 ### **CONTENT**
 
