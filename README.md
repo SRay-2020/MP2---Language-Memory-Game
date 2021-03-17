@@ -190,7 +190,7 @@ HTML – For creating website
 
 Css – For styling website
 
-Bootstrap – Used Bootstrap grid system, navbar, carousel and called classes
+Bootstrap – Used Bootstrap grid system and called classes
 
 JavaScript – For creating functions and interactive elements on project
 
@@ -274,13 +274,317 @@ Function tests -
 
 This site was tested many times manually throughout the development process by the author and friends and family to ensure that it's functions behave exactly as they are intended to. This process was again repeated when hosted to ensure that there were no changes to functionality. 
 
+Below are a list of the 
+- Test cases
+- Excpected behaviour
+- Observed Results
+- Summary of expected behaviour and results 
+These tests will be applied to the three pages included in the project (Landing Page, Second Page, Contact Page).
+
+Test Case 1: Initial Load
+
+Landing Page - 
+Expected Behaviour: Page will load correctly and promptly, with all elements in place where they should be.
+Observed Results: When loaded this page loaded without any issue and in a time that was satisfactory.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: Page will load correctly and promptly, with all elements in place where they should be.
+Observed Results: When loaded this page loaded without any issue and in a time that was satisfactory.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Contact Page - 
+Expected Behaviour: Page will load correctly and promptly, with all elements in place where they should be.
+Observed Results: When loaded this page loaded without any issue and in a time that was satisfactory.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 2: Welcome overlay is visible and clickable
+
+Landing Page - 
+Expected Behaviour: Overlay page will load and will initialise game on mouse click event.
+Observed Results: When loaded the welcome overlay was visible and when clicked it initialised the game.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: Overlay page will load and will initialise game on mouse click event.
+Observed Results: When loaded the welcome overlay was visible and when clicked it initialised the game.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 3: Countdown timer begins
+
+Landing Page - 
+Expected Behaviour: If game page is initialised the countdown timer will begin counting down from 100 seconds to 0 seconds
+Observed Results: When the overlay was clicked and the game begun, the timer began counting down from 100 seconds until zero.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: When game page is initialised the countdown timer will begin counting down from 100 seconds to 0 seconds
+Observed Results: When the overlay was clicked and the game begun, the timer began counting down from 100 seconds until zero.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 4: 'Number of flips' counter measures only card flips
+
+Landing Page - 
+Expected Behaviour: If the user clicks a card and it sucessfully flips over the 'Number of Flips' counter will increase by 1.
+Observed Results: When a card was clicked and it flipped sucessfully the counter incremented by one. When the screen was clicked anywhere else or if a card was clicked but did not flip the counter did not increase. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the user clicks a card and it sucessfully flips over the 'Number of Flips' counter will increase by 1.
+Observed Results: When a card was clicked and it flipped sucessfully the counter incremented by one. When the screen was clicked anywhere else or if a card was clicked but did not flip the counter did not increase. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 5: Background music starts playing
+
+Landing Page - 
+Expected Behaviour: If game page is initialised the background music will begin to play
+Observed Results: When the game begun the muisic in the background was audible and continued playing until the game ended.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If game page is initialised the background music will begin to play
+Observed Results: When the game begun the muisic in the background was audible and continued playing until the game ended.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 6: Card hover feedback
+
+Landing Page - 
+Expected Behaviour: If the user hovers mouse over card the question mark should decrease in size with a transform, if the user takes mouse pointer off card it will return to initial size.
+Observed Results: When the card was hovered on, the question mark shrunk in size and when the mouse was removed from the card it returned to it's original size. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the user hovers mouse over card the question mark should decrease in size with a transform, if the user takes mouse pointer off card it will return to initial size.
+Observed Results: When the card was hovered on, the question mark shrunk in size and when the mouse was removed from the card it returned to it's original size. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 7: Card flip on click event
+
+Landing Page - 
+Expected Behaviour: If the user clicks on a card it should flip over and display an image of an animal and the name of the animal underneath and stay face up until a second card is clicked. 
+Observed Results: When the card was clicked it fliped over on the y axis and displayed the face side which showed an image of an animal and it's name underneath. This was done for all cards and there was six different pairs of animals and each pair had the name of the animal in English on one and Irish on the other. The card remained face up until a second card was clicked.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the user clicks on a card it should flip over and display an image of an animal and the name of the animal underneath and stay face up until a second card is clicked. . 
+Observed Results: When the card was clicked it fliped over on the y axis and displayed the face side which showed an image of an animal and it's name underneath. This was done for all cards and there was six different pairs of animals and each pair had the name of the animal in English on one and French on the other. The card remained face up until a second card was clicked.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 8: Card flip audio on click event
+
+Landing Page - 
+Expected Behaviour: If the user clicks on a card it should flip over and play the 'Flip' audio wav file.
+Observed Results: When the card was clicked it played the short audio 'Flip' sound 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the user clicks on a card it should flip over and play the 'Flip' audio wav file.
+Observed Results: When the card was clicked it played the short audio 'Flip' sound 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+
+Test Case 9: Card not matched event
+
+Landing Page - 
+Expected Behaviour: If the user clicks a second card that is different to the first card then both cards will flip back over to display the side with the question mark- (no match will be found)
+Observed Results: When the second card was clicked and was different both cards flipped back over.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the user clicks a second card that is different to the first card then both cards will flip back over to display the side with the question mark- (no match will be found)
+Observed Results: When the second card was clicked and was different both cards flipped back over.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+
+Test Case 10: Card matched event
+
+Landing Page - 
+Expected Behaviour: If the user clicks a second card that contains the same animal image to the first card then both cards will remain face up and a 'match' will be found
+Observed Results: When the second card was clicked and was the same as the first card then both cards remained face up (displaying the animal image).
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the user clicks a second card that contains the same animal image to the first card then both cards will remain face up and a 'match' will be found
+Observed Results: When the second card was clicked and was the same as the first card then both cards remained face up (displaying the animal image).
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+
+Test Case 11: Card matched audio 
+
+Landing Page - 
+Expected Behaviour: If the user clicks a second card that contains the same animal image to the first card then the 'Match Sound' audio wav file will play
+Observed Results: When the second card was clicked and was the same as the first card the match sound was heard by user.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the user clicks a second card that contains the same animal image to the first card then the 'Match Sound' audio wav file will play
+Observed Results: When the second card was clicked and was the same as the first card the match sound was heard by user.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results.
+
+
+Test Case 12: Victory Conditions met
+
+Landing Page - 
+Expected Behaviour: If all card pairs have been sucessfully matched the game should end, the 'Victory' overlay should be displayed and all cards should be flipped back to be face down again.
+Observed Results: When user sucessfully matched all the pairs the game ended and an overlay appeared on the screen saying "Victory, you win - Click to restart".The cards in the background (behind the overlay) flipped back over to be facedown.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If all card pairs have been sucessfully matched the game should end, the 'Victory' overlay should be displayed and all cards should be flipped back to be face down again.
+Observed Results: When user sucessfully matched all the pairs the game ended and an overlay appeared on the screen saying "Victory, you win - Click to restart".The cards in the background (behind the overlay) flipped back over to be facedown.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+
+Test Case 13: Victory Conditions met audio 
+
+Landing Page - 
+Expected Behaviour: If all card pairs have been sucessfully matched the game should end and the background music should stop playing and the 'Victory Sound' audio wav file should be played.
+Observed Results: When user sucessfully matched all the pairs the game ended and the background music stopped playing and the 'Victory' sound played.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If all card pairs have been sucessfully matched the game should end and the background music should stop playing and the 'Victory Sound' audio wav file should be played.
+Observed Results: When user sucessfully matched all the pairs the game ended and the background music stopped playing and the 'Victory' sound played.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 14: Game Over Conditions met
+
+Landing Page - 
+Expected Behaviour: If all card pairs have not been sucessfully matched within the 100 seconds the game should end, the 'Game Over' overlay should be displayed and all cards should be flipped back to be face down again.
+Observed Results: When user did not match all the pairs within the 100 seconds on the timer the game ended. An overlay appeared on the screen saying "GAME OVER! - Click to restart". The cards in the background (behind the overlay) flipped back over to be facedown.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If all card pairs have not been sucessfully matched within the 100 seconds the game should end, the 'Game Over' overlay should be displayed and all cards should be flipped back to be face down again.
+Observed Results: When user did not match all the pairs within the 100 seconds on the timer the game ended. An overlay appeared on the screen saying "GAME OVER! - Click to restart". The cards in the background (behind the overlay) flipped back over to be facedown.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+
+Test Case 15: Game Over Conditions met audio 
+
+Landing Page - 
+Expected Behaviour: If all card pairs have not been sucessfully matched within 100 seconds the game should end and the background music should stop playing and the 'Game Over Sound' audio wav file should be played.
+Observed Results: When user failed to match all the pairs within 100 seconds the game ended and the background music stopped playing and the 'Game Over' sound played.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If all card pairs have not been sucessfully matched within 100 seconds the game should end and the background music should stop playing and the 'Game Over Sound' audio wav file should be played.
+Observed Results: When user failed to match all the pairs within 100 seconds the game ended and the background music stopped playing and the 'Game Over' sound played.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 16: Click to restart function works on 'Victory' condition
+
+Landing Page - 
+Expected Behaviour: If the 'Victory' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the timer to 100 seconds,the flip counter to zero and restarting the background music).
+Observed Results: When the 'Victory' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0 and all the cards were face down again and set in new places. The background music also began to play again from the beginning. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the 'Victory' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the timer to 100 seconds,the flip counter to zero and restarting the background music).
+Observed Results: When the 'Victory' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0 and all the cards were face down again and set in new places. The background music also began to play again from the beginning. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 17: Click to restart function works on 'Game Over' condition
+
+Landing Page - 
+Expected Behaviour: If the 'Game Over' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the timer to 100 seconds,the flip counter to zero and restarting the background music).
+Observed Results: When the 'Game Over' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0 and all the cards were face down again and set in new places.The background music also began to play again from the beginning. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the 'Game Over' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the timer to 100 seconds, the flip counter to zero and restarting the background music).
+Observed Results: When the 'Game Over' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0 and all the cards were face down again and set in new places. The background music also began to play again from the beginning. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+
+Test Case 18: Click on naviagtion buttons
+
+Landing Page - 
+Expected Behaviour: If the user clicks on the 'French' button they should be brought to the 'Second' page of the website where the game is available in French. If they click on the 'Contact' button they will be brought to the Contact page.
+Observed Results: When the 'French' button was pressed the user was brought to the correct page where game was available in French. When the user clicked on the 'Contact' button they were directed to the 'Contact' page. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: If the user clicks on the 'Irish' button they should be brought to the 'Landing' page of the website where the game is available in Irish. If they click on the 'Contact' button they will be brought to the Contact page.
+Observed Results: When the 'Irish' button was pressed the user was brought to the correct page where game was available in Irish. When the user clicked on the 'Contact' button they were directed to the 'Contact' page. 
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Contact Page - 
+Expected Behaviour: If the user clicks on the 'Irish' button they should be brought to the 'Landing' page of the website where the game is available in Irish. If the user clicks on the 'French' button they should be brought to the 'Second' page of the website where the game is available in French.
+Observed Results: When the 'Irish' button was pressed the user was brought to the correct page where game was available in Irish. When the 'French' button was pressed the user was brought to the correct page where game was available in French.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Test Case 19: Feedback on naviagtion buttons
+
+Landing Page - 
+Expected Behaviour: The currrent page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
+Observed Results: When the user is on the 'Landing' page the button at the top saying 'Irish' is coloured in gold while the two other button texts remain white in colour.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Second Page - 
+Expected Behaviour: The currrent page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
+Observed Results: When the user is on the 'Second' page the button at the top saying 'French' is coloured in gold while the two other button texts remain white in colour.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+Contact Page - 
+Expected Behaviour: The currrent page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
+Observed Results: When the user is on the 'Contact' page the button at the top saying 'Contact' is coloured in gold while the two other button texts remain white in colour.
+Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Response tests -
 
-The site was tested across all media query sizes and at all possible breaking points to ensure that a consistent and responsive experience was ensured for the user on any device. The author also used AmIResponsive.com to ensure that this was double checked. 
+The site was tested across all media query sizes and at all possible breaking points to ensure that a consistent and responsive experience was ensured for the user on any device. The author also used AmIResponsive.com to ensure that this was confirmed through an outside, objective source.
+
+Below are a list of the 
+- Test cases
+- Excpected behaviour
+- Observed Results
+- Summary of expected behaviour and results 
+
+
+
+
+
+
+
+
+
+
 
 Browser tests -
 
 Though the sote was developed through Google Chrome, after it had been deployed online it was tested across all other major browsers to make sure that it was fully operational. These browsers included Chrome, Safari, Firefox and Opera.  
+
+Below are a list of the 
+- Test cases
+- Excpected behaviour
+- Observed Results
+- Summary of expected behaviour and results 
+
 
 User story tests -
 
@@ -331,9 +635,6 @@ Website Owner -
 - This game has multiple languages and is fun and engaging so users would return to it
 16. As the website owner I want users to be able to contact me to share their feedback 
 - This game features a contact page which includes an email feedback form so users can offer feedback to the website owner
-
-
-Website -
 
 ### **BUG FIXES**
 
