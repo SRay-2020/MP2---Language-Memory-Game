@@ -393,15 +393,6 @@ color: black;
     padding-top: 0;
 }
 
-
-/* Largest Media Query */
-
-@media (max-width:1500x) {
-.form-group {
-    padding-left: 20%;
-    padding-right: 20%;}
-}
-
 /* Large Media Query */
 
 @media (max-width:1190px) {

@@ -7,9 +7,9 @@
     <meta name="description" content="Irish Language Acquisition Game, built using JavaScript">
     <title>Language Memory Game</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" defer rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" defer rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap"  rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/favicon4.png" type="image/png">
     <script src="assets/js/script.js" async></script>
@@ -24,14 +24,19 @@
         <header>
             <ul class="header-buttons">
                 <li class="active">
-                    <button class="btn-style"> <a class="nav-link active" aria-current="page"
-                            href="index.html">IRISH<span class="sr-only">(current)</span></a></button>
+<form style="display: inline" action="index.html" method="get">
+  <button class="btn-style nav-link active" aria-current="page" >IRISH<span class="sr-only">(current)</span></button>
+</form>
                 </li>
                 <li>
-                    <button class="btn-style"><a class="nav-link" href="french-page.html">FRENCH</a></button>
+                   <form style="display: inline" action="french-page.html" method="get">
+  <button class="btn-style nav-link">FRENCH<span class="sr-only"></span></button>
+</form>
                 </li>
                 <li>
-                    <button class="btn-style"> <a class="nav-link" href="contact.html">CONTACT</a></button>
+                  <form style="display: inline" action="contact.html" method="get">
+  <button class="btn-style nav-link" >CONTACT<span class="sr-only"></span></button>
+</form>
                 </li>
             </ul>
         </header>
