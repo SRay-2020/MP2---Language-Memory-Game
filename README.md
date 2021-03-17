@@ -47,7 +47,7 @@ A digital render of how the site would look on different devices and screen size
 
 * [**MEDIA**](#media)
 
-* [**ACKNOWLEDGEMENTS**](#awknowledgements)
+* [**ACKNOWLEDGEMENTS**](#acknowledgements)
 
 
 ### **STRATEGY**
@@ -186,7 +186,7 @@ A fun and interactive aesthetic was utilised for this project.  The desired effe
 - Game to include a mute music function
 
 
-### **TECNOLOGIES USED**
+### **TECHNOLOGIES USED**
 
 HTML – For creating website
 
@@ -257,11 +257,11 @@ To bring this project to score this high some changes were made in all four cate
 These changes included - 
 1. Performance: 
     • Added ‘defer’ to the font styles to allow a faster load of base site 
-    • Removing ‘unessecary CSS’ 
+    • Removing ‘unnecessary CSS’ 
 These two changes increased score in Performance from 76% to 97%. 
 2. Accessibility:
-    • Added new colours to increase contrast to improve visability. 
-This change increased score in Accesibility from 86% to 100%. 
+    • Added new colours to increase contrast to improve visibility. 
+This change increased score in Accessibility from 86% to 100%. 
 3. Best Practices:
     • Images were changed to correct aspect ratio
     • Images that had been displayed at low resolution were replaced
@@ -278,7 +278,7 @@ This site was tested many times manually throughout the development process by t
 
 Below are a list of the 
 - Test cases
-- Excpected behaviour
+- Expected behaviour
 - Observed Results
 - Summary of expected behaviour and results 
 These tests will be applied to the three pages included in the project (Landing Page, Second Page, Contact Page).
@@ -364,7 +364,7 @@ Second Page -
 
 Landing Page - 
 - Expected Behaviour: If the user clicks on a card it should flip over and display an image of an animal and the name of the animal underneath and stay face up until a second     card is clicked. 
-- Observed Results: When the card was clicked it fliped over on the y axis and displayed the face side which showed an image of an animal and it's name underneath. This was done   for all cards and there was six different pairs of animals and each pair had the name of the animal in English on one and Irish on the other. The card remained face up until a   second card was clicked.
+- Observed Results: When the card was clicked it flipped over on the y axis and displayed the face side which showed an image of an animal and it's name underneath. This was done   for all cards and there was six different pairs of animals and each pair had the name of the animal in English on one and Irish on the other. The card remained face up until a   second card was clicked.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Second Page - 
@@ -388,7 +388,7 @@ Second Page -
 **Test Case 9:** Card not matched event
 
 Landing Page - 
-- Expected Behaviour: If the user clicks a second card that is different to the first card then both cards will flip back over to display the side with the question mark- (no     match will be found)
+- Expected Behaviour: If the user clicks a second card that is different to the first card then both cards will flip back over to display the side with the question mark- (no match will be found)
 - Observed Results: When the second card was clicked and was different both cards flipped back over.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
@@ -427,37 +427,37 @@ Second Page -
 **Test Case 12:** Victory Conditions met
 
 Landing Page - 
-- Expected Behaviour: If all card pairs have been sucessfully matched the game should end, the 'Victory' overlay should be displayed and all cards should be flipped back to be     face down again.
-- Observed Results: When user sucessfully matched all the pairs the game ended and an overlay appeared on the screen saying "Victory, you win - Click to restart".The cards in     the background (behind the overlay) flipped back over to be facedown.
+- Expected Behaviour: If all card pairs have been successfully matched the game should end, the 'Victory' overlay should be displayed and all cards should be flipped back to be     face down again.
+- Observed Results: When user successfully matched all the pairs the game ended and an overlay appeared on the screen saying "Victory, you win - Click to restart".The cards in     the background (behind the overlay) flipped back over to be face down.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Second Page - 
-- Expected Behaviour: If all card pairs have been sucessfully matched the game should end, the 'Victory' overlay should be displayed and all cards should be flipped back to be     face down again.
-- Observed Results: When user sucessfully matched all the pairs the game ended and an overlay appeared on the screen saying "Victory, you win - Click to restart".The cards in     the background (behind the overlay) flipped back over to be facedown.
+- Expected Behaviour: If all card pairs have been successfully matched the game should end, the 'Victory' overlay should be displayed and all cards should be flipped back to be     face down again.
+- Observed Results: When user successfully matched all the pairs the game ended and an overlay appeared on the screen saying "Victory, you win - Click to restart".The cards in     the background (behind the overlay) flipped back over to be face down.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
 **Test Case 13:** Victory Conditions met audio 
 
 Landing Page - 
-- Expected Behaviour: If all card pairs have been sucessfully matched the game should end and the background music should stop playing and the 'Victory Sound' audio wav file       should be played.
+- Expected Behaviour: If all card pairs have been successfully matched the game should end and the background music should stop playing and the 'Victory Sound' audio wav file       should be played.
 - Observed Results: When user sucessfully matched all the pairs the game ended and the background music stopped playing and the 'Victory' sound played.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Second Page - 
-- Expected Behaviour: If all card pairs have been sucessfully matched the game should end and the background music should stop playing and the 'Victory Sound' audio wav file       should be played.
-- Observed Results: When user sucessfully matched all the pairs the game ended and the background music stopped playing and the 'Victory' sound played.
+- Expected Behaviour: If all card pairs have been successfully matched the game should end and the background music should stop playing and the 'Victory Sound' audio wav file       should be played.
+- Observed Results: When user successfully matched all the pairs the game ended and the background music stopped playing and the 'Victory' sound played.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 **Test Case 14:** Game Over Conditions met
 
 Landing Page - 
-- Expected Behaviour: If all card pairs have not been sucessfully matched within the 100 seconds the game should end, the 'Game Over' overlay should be displayed and all cards     should be flipped back to be face down again.
-- Observed Results: When user did not match all the pairs within the 100 seconds on the timer the game ended. An overlay appeared on the screen saying "GAME OVER! - Click to       restart". The cards in the background (behind the overlay) flipped back over to be facedown.
+- Expected Behaviour: If all card pairs have not been successfully matched within the 100 seconds the game should end, the 'Game Over' overlay should be displayed and all cards     should be flipped back to be face down again.
+- Observed Results: When user did not match all the pairs within the 100 seconds on the timer the game ended. An overlay appeared on the screen saying "GAME OVER! - Click to       restart". The cards in the background (behind the overlay) flipped back over to be face down.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Second Page - 
-- Expected Behaviour: If all card pairs have not been sucessfully matched within the 100 seconds the game should end, the 'Game Over' overlay should be displayed and all cards     should be flipped back to be face down again.
+- Expected Behaviour: If all card pairs have not been successfully matched within the 100 seconds the game should end, the 'Game Over' overlay should be displayed and all cards     should be flipped back to be face down again.
 - Observed Results: When user did not match all the pairs within the 100 seconds on the timer the game ended. An overlay appeared on the screen saying "GAME OVER! - Click to       restart". The cards in the background (behind the overlay) flipped back over to be facedown.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
@@ -465,12 +465,12 @@ Second Page -
 **Test Case 15:** Game Over Conditions met audio 
 
 Landing Page - 
-- Expected Behaviour: If all card pairs have not been sucessfully matched within 100 seconds the game should end and the background music should stop playing and the 'Game Over   Sound' audio wav file should be played.
+- Expected Behaviour: If all card pairs have not been successfully matched within 100 seconds the game should end and the background music should stop playing and the 'Game Over   Sound' audio wav file should be played.
 - Observed Results: When user failed to match all the pairs within 100 seconds the game ended and the background music stopped playing and the 'Game Over' sound played.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Second Page - 
-- Expected Behaviour: If all card pairs have not been sucessfully matched within 100 seconds the game should end and the background music should stop playing and the 'Game Over   Sound' audio wav file should be played.
+- Expected Behaviour: If all card pairs have not been successfully matched within 100 seconds the game should end and the background music should stop playing and the 'Game Over   Sound' audio wav file should be played.
 - Observed Results: When user failed to match all the pairs within 100 seconds the game ended and the background music stopped playing and the 'Game Over' sound played.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
@@ -499,7 +499,7 @@ Second Page -
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
-**Test Case 18:** Click on naviagtion buttons
+**Test Case 18:** Click on navigation buttons
 
 Landing Page - 
 - Expected Behaviour: If the user clicks on the 'French' button they should be brought to the 'Second' page of the website where the game is available in French. If they click     on the 'Contact' button they will be brought to the Contact page.
@@ -516,24 +516,24 @@ Contact Page -
 - Observed Results: When the 'Irish' button was pressed the user was brought to the correct page where game was available in Irish. When the 'French' button was pressed the user   was brought to the correct page where game was available in French.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
-**Test Case 19:** Feedback on naviagtion buttons
+**Test Case 19:** Feedback on navigation buttons
 
 Landing Page - 
-- Expected Behaviour: The currrent page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are     on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
+- Expected Behaviour: The current page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are     on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
 - Observed Results: When the user is on the 'Landing' page the button at the top saying 'Irish' is coloured in gold while the two other button texts remain white in colour.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Second Page - 
-- Expected Behaviour: The currrent page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are     on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
+- Expected Behaviour: The current page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are     on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
 - Observed Results: When the user is on the 'Second' page the button at the top saying 'French' is coloured in gold while the two other button texts remain white in colour.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Contact Page - 
-- Expected Behaviour: The currrent page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are     on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
+- Expected Behaviour: The current page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are     on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
 - Observed Results: When the user is on the 'Contact' page the button at the top saying 'Contact' is coloured in gold while the two other button texts remain white in colour.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
-**Test Case 20:** Contact Page functionaity
+**Test Case 20:** Contact Page functionality
 
 Contact Page - 
 - Expected Behaviour: The page should display three input boxes with 'Name','Email' and 'Feedback' placeholders. They should all have the 'required text' function and the submit button should not be able to be pressed until all fields have been filled. When the 'Send Feedback' button is pressed an email which contains all the fields should be sent to the authors email address and formatted in the preset format. When an email is sent the fields should return to empty, except the bottom field which should be replaced with 'We have received your email. Thank you for your feedback :) '.
@@ -557,7 +557,7 @@ Though the sote was developed through Google Chrome, after it had been deployed 
 - Opera
 
 
-#### **User story tests -**
+#### **User story tests:**
 
 **Website user -**
 
@@ -635,7 +635,7 @@ To create a clone of this project you can access it through the link onf Git Hub
 
 **Running Clone on local machine -**
 
-If you want to run this clone on a local machine you would go to the 'Clone' section on GitHub and click the url link in the HTTPS section. When you donwnload and unzip these files to your desktop you can then open them in your own IDE shell and save them as a new directory. 
+If you want to run this clone on a local machine you would go to the 'Clone' section on GitHub and click the url link in the HTTPS section. When you download and unzip these files to your desktop you can then open them in your own IDE shell and save them as a new directory. 
 
 ### **CREDITS**
 
@@ -644,7 +644,7 @@ If you want to run this clone on a local machine you would go to the 'Clone' sec
 - Code Institute (Course content & Slack Community)
 - The Complete JavaScript Course 2021: From Zero to Expert - Jonas Schmedtmann (Udemy)
 
-##### **Specific Elements -** 
+#### **Specific Elements -** 
 
 **Buttons** 
 - FDossena: (https://fdossena.com/?p=html5cool/buttons/i.frag)
