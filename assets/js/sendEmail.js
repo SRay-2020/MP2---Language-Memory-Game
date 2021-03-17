@@ -1,6 +1,6 @@
 // EmailJS email service
 // Code Institute Lessons
-
+// Fucntion calls on emailjs to send mail and resend in template to author
 function sendMail(contactForm) {
 emailjs.send("service_motdhpp","template_kjnqbzq",{
 "from_name": contactForm.name.value,
@@ -13,7 +13,8 @@ emailjs.send("service_motdhpp","template_kjnqbzq",{
 console.log("SUCCESS!", response);
 document.getElementById('fullname').value='';
 document.getElementById('email').value='';
-document.getElementById('feedback-summary').value='Thank you for your feedback :)';
+// Returns a comment to user in feedback field to confirm email has sent 
+document.getElementById('feedback-summary').value='We have received your email. Thank you for your feedback :)';
 },
 function(error) {
 console.log("FAILED", error);

@@ -1,6 +1,6 @@
 // Ref - Code Institute (Course content), PortExe (Video), Medium (Article), WebDev (Video), Invention Tricks (Video) - see README.md
 // Audio Controler 
-
+// Constructs new controller with new instances of wav files
 class AudioController {
     constructor() {
         this.bgMusic = new Audio('assets/music/BackMusic.wav')
@@ -12,6 +12,7 @@ class AudioController {
         this.bgMusic.loop = true;
     }
     // Music Functions
+    // Sets the behaviour of functions 
     startMusic() {
         this.bgMusic.play();
     }
@@ -36,8 +37,8 @@ class AudioController {
     }
 }
 
-// 
-class MixOrMatch {
+// Contains template of game object(cards array, timer, turn counter and audio controls)
+class LanguageGame {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
         this.totalTime = totalTime;
@@ -47,14 +48,14 @@ class MixOrMatch {
         this.audioController = new AudioController();
     }
     //  Start Game Function
+    // Resets cards to check to zero, total clicks to 0 & matched cards array back to 0
     startGame() {
-        this.getUserName;
         this.cardToCheck = null;
         this.totalClicks = 0;
         this.timeRemaining = this.totalTime;
         this.matchedCards = [];
         this.busy = true;
-
+// Creates a buffer of time to control when user can click
         setTimeout(() => {
             this.audioController.startMusic();
             this.shuffleCards();
@@ -66,7 +67,7 @@ class MixOrMatch {
         this.timer.innerText = this.timeRemaining;
         this.ticker.innerText = this.totalClicks;
     }
-
+// When Game ends will reset cards and reflip them (if matched correctly)
     hideCards() {
         this.cardsArray.forEach(card => {
             card.classList.remove('visible');
@@ -78,11 +79,12 @@ class MixOrMatch {
     // Flip Cards Function
     flipCard(card) {
         if (this.canFlipCard(card)) {
+            // Play flip sound
             this.audioController.flip();
+            // Add increment of 1 to total clicks
             this.totalClicks++;
             this.ticker.innerText = this.totalClicks;
             card.classList.add('visible');
-
 
             if (this.cardToCheck) {
                 this.checkForCardMatch(card);
@@ -103,13 +105,15 @@ class MixOrMatch {
 
             this.cardToCheck = null;
     }
-// When Cards are Matched
+// When Cards are Matched add matched class 
     cardMatch(card1, card2){
 this.matchedCards.push(card1);
 this.matchedCards.push(card2);
 card1.classList.add('matched');
 card2.classList.add('matched');
+// When cards are matched play 'match' audio
 this.audioController.match();
+// When the number of matched cards is same number (length) as total cards - Victory function
 if(this.matchedCards.length === this.cardsArray.length)
 this.victory();
     }
@@ -123,13 +127,13 @@ card2.classList.remove('visible');
 this.busy = false;
     }, 1000);
     }
-// Card Identifiers for Matching
+// Card Identifiers for Matching from classname
     getCardType(card) {
         return card.getElementsByClassName('animal-image')[0].src;
     }
 
    
-// Game Timer
+// Game Timer (from 100 secs -> 0 secs)
    startCountDown(){
 return setInterval(() => {
     this.timeRemaining--;
@@ -146,7 +150,7 @@ return setInterval(() => {
         document.getElementById('game-over-text').classList.add('visible');
     }
 
-    // Victory 
+    // Victory Conditions Met
     victory() {
         clearInterval(this.countDown);
         this.audioController.victory();
@@ -163,6 +167,8 @@ return setInterval(() => {
             this.cardsArray[i].style.order = randomIndex;
         }
     }
+
+    // Check if Card can be flipped - (not busy & not already in matched cards array & is not the card being checked)
     canFlipCard(card) {
         return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
     }
@@ -172,16 +178,16 @@ return setInterval(() => {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(100, cards);
+    let game = new LanguageGame(100, cards);
 
-// Click to Remove Overlay 
+// Click to Remove Overlay (Event)
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
             game.startGame();
         });
     });
-// Click to Flip Event
+// Click to Flip Card (Event)
     cards.forEach(card => {
         card.addEventListener('click', () => {
             game.flipCard(card);
