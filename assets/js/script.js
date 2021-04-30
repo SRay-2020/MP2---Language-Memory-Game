@@ -1,44 +1,7 @@
 /*jshint esversion: 6 */
 // Ref - Code Institute (Course content), PortExe (Video), Medium (Article), WebDev (Video), Invention Tricks (Video) - see README.md
-// Audio Controler 
-// Constructs new controller with new instances of wav files
-class AudioController {
-    constructor() {
-        this.bgMusic = new Audio('assets/music/BackMusic.wav');
-        this.flipSound = new Audio('assets/music/newflipper.wav');
-        this.matchSound = new Audio('assets/music/matchSound.wav');
-        this.victorySound = new Audio('assets/music/winSound.wav');
-        this.gameOverSound = new Audio('assets/music/gameoverSound.wav');
-        this.bgMusic.volume = 0.5;
-        this.bgMusic.loop = true;
-    }
-    // Music Functions
-    // Sets the behaviour of functions 
-    startMusic() {
-        this.bgMusic.play();
-    }
-    stopMusic() {
-        this.bgMusic.pause();
-        this.bgMusic.currentTime = 0;
-    }
 
-    flip() {
-        this.flipSound.play();
-    }
-    match() {
-        this.matchSound.play();
-    }
-    victory() {
-        this.stopMusic();
-        this.victorySound.play();
-    }
-    gameOver() {
-        this.stopMusic();
-        this.gameOverSound.play();
-    }
-}
-
-// Contains template of game object(cards array, timer, turn counter and audio controls)
+// Contains template of game object(cards array, timer and turn counter)
 class LanguageGame {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
@@ -46,7 +9,6 @@ class LanguageGame {
         this.timeReamining = totalTime;
         this.timer = document.getElementById('game-timer');
         this.ticker = document.getElementById('turn-amount');
-        this.audioController = new AudioController();
     }
     //  Start Game Function
     // Resets cards to check to zero, total clicks to 0 & matched cards array back to 0
@@ -58,7 +20,6 @@ class LanguageGame {
         this.busy = true;
 // Creates a buffer of time to control when user can click
         setTimeout(() => {
-            this.audioController.startMusic();
             this.shuffleCards();
             this.countDown = this.startCountDown();
             this.busy = false;
@@ -80,8 +41,6 @@ class LanguageGame {
     // Flip Cards Function
     flipCard(card) {
         if (this.canFlipCard(card)) {
-            // Play flip sound
-            this.audioController.flip();
             // Add increment of 1 to total clicks
             this.totalClicks++;
             this.ticker.innerText = this.totalClicks;
@@ -112,8 +71,6 @@ this.matchedCards.push(card1);
 this.matchedCards.push(card2);
 card1.classList.add('matched');
 card2.classList.add('matched');
-// When cards are matched play 'match' audio
-this.audioController.match();
 // When the number of matched cards is same number (length) as total cards - Victory function
 if(this.matchedCards.length === this.cardsArray.length)
 this.victory();
@@ -147,14 +104,12 @@ return setInterval(() => {
  // Game Over Function
     gameOver() {
         clearInterval(this.countDown);
-        this.audioController.gameOver();
         document.getElementById('game-over-text').classList.add('visible');
     }
 
     // Victory Conditions Met
     victory() {
         clearInterval(this.countDown);
-        this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
         this.hideCards();
     }
