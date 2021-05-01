@@ -6,7 +6,7 @@
 function sendMail(contactForm) {
     emailjs.send("service_motdhpp", "template_kjnqbzq", {
         "from_name": contactForm.name.value,
-        "from_email": contactForm.email.value,
+        "from_email": contactForm.emailaddress.value,
         "feedback_request": contactForm.feedbacksummary.value
     })
 
@@ -16,14 +16,15 @@ function sendMail(contactForm) {
 
                 // Stack Overflow lesson - return empty fields
                 console.log("SUCCESS!", response);
-                // document.getElementById('fullname').value = '';
-                // document.getElementById('email').value = '';
+                document.getElementById('fullname').value = '';
+                document.getElementById('emailaddress').value = '';
                 // // Returns a comment to user in feedback field to confirm email has sent 
-                // document.getElementById('feedback-summary').value = 'We have received your email. Thank you for your feedback :)';
+                document.getElementById('feedback-summary').value = 'We have received your email. Thank you for your feedback :)';
             },
             function(error) {
                 console.log("FAILED", error);
-            });
+            }
+        );
 
-    // return false;
+    return false;
 }
