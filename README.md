@@ -617,10 +617,6 @@ If you want to run this clone on a local machine you would go to the 'Clone' sec
 - Web Dev Simplified: (https://www.youtube.com/watch?v=28VfzEiJgy4&t=8s)
 - PorEXE: (https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=1385s)
 
-**JavaScript Audio Controller**
-- Invention Tricks: (https://www.youtube.com/watch?v=wffK2OIt8u0)
-- PorEXE: (https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=1385s)
-
 **Loading Javascript**
 - Flaviocopes.com: (https://flaviocopes.com/javascript-async-defer/)
 
