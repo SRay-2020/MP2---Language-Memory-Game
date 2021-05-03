@@ -1,36 +1,14 @@
-<<<<<<< HEAD
 /*jshint esversion: 6 */
 // EmailJS email service
 // Code Institute Lessons
 // Fucntion calls on emailjs to send mail and resend in template to author
 // let emailjs;
-=======
-// EmailJS email service
-// Code Institute Lessons
-
->>>>>>> 8484efa (Clean code and comments for JS)
 function sendMail(contactForm) {
     emailjs.send("service_motdhpp", "template_kjnqbzq", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "feedback_request": contactForm.feedbacksummary.value
     })
-
-<<<<<<< HEAD
-=======
-// Stack Overflow lesson - return empty fields
-console.log("SUCCESS!", response);
-document.getElementById('fullname').value='';
-document.getElementById('email').value='';
-document.getElementById('feedback-summary').value='Thank you for your feedback :)';
-},
-function(error) {
-console.log("FAILED", error);
-});
-return false;
-}
->>>>>>> 8484efa (Clean code and comments for JS)
-
         .then(
             function(response) {
 
