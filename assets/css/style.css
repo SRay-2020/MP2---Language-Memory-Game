@@ -659,3 +659,12 @@ font-size: 2.25rem;
 }
 
 }
+
+
+/* ERROR 404 PAGE STYLES */
+
+.error-text {
+
+    text-align: center;
+    font-family: 'VT323', cursive;
+}
