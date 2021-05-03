@@ -53,7 +53,7 @@ A digital render of how the site would look on different devices and screen size
 ### **STRATEGY**
 
 #### SITE OWNER GOALS:
-The main goal of this project is to create an interactive website which hosts a single player, pattern matching game with a language acquisition component. This game should be fun for any user and should make the user want to return to the website to play again. This will hopefully be achieved by using fun and unique images and music throughout this project. The language acquisition component will hopefully broaden the appeal of this game to users, educators and parents which should will mean a higher base of users and more people who could potential enjoy playing the game and have fun!  
+The main goal of this project is to create an interactive website which hosts a single player, pattern matching game with a language acquisition component. This game should be fun for any user and should make the user want to return to the website to play again. This will hopefully be achieved by using fun and unique images throughout this project. The language acquisition component will hopefully broaden the appeal of this game to users, educators and parents which should will mean a higher base of users and more people who could potential enjoy playing the game and have fun!  
 
 Target audience 
 - People who like games 
@@ -108,7 +108,6 @@ Functional specifications:
 Content specifications:
 - Tutorial overlay
 - Custom artwork
-- Custom music
 - Win/Lose overlays
 
 ### **STRUCTURE**
@@ -123,7 +122,7 @@ The two game pages (1 + 2)contain three overlays, these will instruct the player
 - How to play
 - Tell users if they have won the game
 - tell users if they have lost the game
-When a player clicks on this first overlay (after being prompted on screen to click) the game will begin. When this happens the background music will start and a timer, which will start at 100 seconds, will begin to countdown to zero. When the timer reaches zero the game will end. 
+When a player clicks on this first overlay (after being prompted on screen to click) the game will begin. When this happens a timer will start, which will begin at 100 seconds and will countdown to zero. When the timer reaches zero the game will end. 
 
 Pages 1 & 2 will contain 12 cards which will resemble playing cards. These cards will each contain a different image of an animal (repeating twice) to create six pairs of cards. Each pair will have the name of the animal that it contains written on it, one will have the English and the other will have the Irish (or French on Page 2) on it. On the reverse side all cards will be identical, containing a farmyard fence and a question mark. When a player clicks on a card it will flip over and they must select a second card to find it's match. If the player finds all 6 matches before the 100 seconds is over then they will win the game and the 'Victory' overlay will appear on screen. If they cannot find both matches before the 100 seconds elapses then they will lose and the 'Lose' overlay will appear on screen. A 'click to restart' prompt will appear on both of these screens. 
 
@@ -170,20 +169,19 @@ A fun and interactive aesthetic was utilised for this project.  The desired effe
 - Card Game includes 6 custom designed cards with names of animals in 3 languages
 - Game includes a countdown timer
 - Game includes a ‘flip counter’
-- Card Game includes custom made Background music, Victory music and Game Over music
-- Card Game includes user feedback through unique custom made audio cues (flip and correct match)
 - Contact page form has form with ‘value needed’ function
 - Contact page has full functionality 
 - Contact page button submits user feedback
 
 ### **FUTURE FEATURES**
 
+- Game to include a play music function with audio (including background music and audio cues)
 - User name prompt and input to be used and stored
 - User scores (number of flips) to be stored and displayed in a highscore field
 - Learned words feature which displays which cards have been matched and the corresponding words for those animals
 - Game made available in different languages
 - Game made available with new 'decks' containing different words/images
-- Game to include a mute music function
+
 
 
 ### **TECHNOLOGIES USED**
@@ -196,14 +194,12 @@ Bootstrap – Used Bootstrap grid system and called classes
 
 JavaScript – For creating functions and interactive elements on project
 
-Jquery - 
 
 Adobe XD – For creating wireframes
 
 Adobe Photoshop – For editing images to consistent sizes and adjusting
  styles
 
-Beepbox.co – Used to create the music and sounds used in project
 
 Email.js – For email functionality on contact page
 
@@ -336,19 +332,8 @@ Second Page -
 - Observed Results: When a card was clicked and it flipped sucessfully the counter incremented by one. When the screen was clicked anywhere else or if a card was clicked but did   not flip the counter did not increase. 
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
-**Test Case 5:** Background music starts playing
 
-Landing Page - 
-- Expected Behaviour: If game page is initialised the background music will begin to play
-- Observed Results: When the game begun the muisic in the background was audible and continued playing until the game ended.
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
-
-Second Page - 
-- Expected Behaviour: If game page is initialised the background music will begin to play
-- Observed Results: When the game begun the muisic in the background was audible and continued playing until the game ended.
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
-
-**Test Case 6:** Card hover feedback
+**Test Case 5:** Card hover feedback
 
 Landing Page - 
 - Expected Behaviour: If the user hovers mouse over card the question mark should decrease in size with a transform, if the user takes mouse pointer off card it will return to     initial size.
@@ -360,7 +345,7 @@ Second Page -
 - Observed Results: When the card was hovered on, the question mark shrunk in size and when the mouse was removed from the card it returned to it's original size. 
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
-**Test Case 7:** Card flip on click event
+**Test Case 6:** Card flip on click event
 
 Landing Page - 
 - Expected Behaviour: If the user clicks on a card it should flip over and display an image of an animal and the name of the animal underneath and stay face up until a second     card is clicked. 
@@ -372,20 +357,9 @@ Second Page -
 - Observed Results: When the card was clicked it fliped over on the y axis and displayed the face side which showed an image of an animal and it's name underneath. This was done   for all cards and there was six different pairs of animals and each pair had the name of the animal in English on one and French on the other. The card remained face up until   a second card was clicked.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
-**Test Case 8:** Card flip audio on click event
-
-Landing Page - 
-- Expected Behaviour: If the user clicks on a card it should flip over and play the 'Flip' audio wav file.
-- Observed Results: When the card was clicked it played the short audio 'Flip' sound 
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
-
-Second Page - 
-- Expected Behaviour: If the user clicks on a card it should flip over and play the 'Flip' audio wav file.
-- Observed Results: When the card was clicked it played the short audio 'Flip' sound 
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
-**Test Case 9:** Card not matched event
+**Test Case 7:** Card not matched event
 
 Landing Page - 
 - Expected Behaviour: If the user clicks a second card that is different to the first card then both cards will flip back over to display the side with the question mark- (no match will be found)
@@ -398,7 +372,7 @@ Second Page -
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
-**Test Case 10:** Card matched event
+**Test Case 8:** Card matched event
 
 Landing Page - 
 - Expected Behaviour: If the user clicks a second card that contains the same animal image to the first card then both cards will remain face up and a 'match' will be found
@@ -411,20 +385,7 @@ Second Page -
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
-**Test Case 11:** Card matched audio 
-
-Landing Page - 
-- Expected Behaviour: If the user clicks a second card that contains the same animal image to the first card then the 'Match Sound' audio wav file will play
-- Observed Results: When the second card was clicked and was the same as the first card the match sound was heard by user.
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
-
-Second Page - 
-- Expected Behaviour: If the user clicks a second card that contains the same animal image to the first card then the 'Match Sound' audio wav file will play
-- Observed Results: When the second card was clicked and was the same as the first card the match sound was heard by user.
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results.
-
-
-**Test Case 12:** Victory Conditions met
+**Test Case 9:** Victory Conditions met
 
 Landing Page - 
 - Expected Behaviour: If all card pairs have been successfully matched the game should end, the 'Victory' overlay should be displayed and all cards should be flipped back to be     face down again.
@@ -437,19 +398,7 @@ Second Page -
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
-**Test Case 13:** Victory Conditions met audio 
-
-Landing Page - 
-- Expected Behaviour: If all card pairs have been successfully matched the game should end and the background music should stop playing and the 'Victory Sound' audio wav file       should be played.
-- Observed Results: When user sucessfully matched all the pairs the game ended and the background music stopped playing and the 'Victory' sound played.
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
-
-Second Page - 
-- Expected Behaviour: If all card pairs have been successfully matched the game should end and the background music should stop playing and the 'Victory Sound' audio wav file       should be played.
-- Observed Results: When user successfully matched all the pairs the game ended and the background music stopped playing and the 'Victory' sound played.
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
-
-**Test Case 14:** Game Over Conditions met
+**Test Case 10:** Game Over Conditions met
 
 Landing Page - 
 - Expected Behaviour: If all card pairs have not been successfully matched within the 100 seconds the game should end, the 'Game Over' overlay should be displayed and all cards     should be flipped back to be face down again.
@@ -462,44 +411,32 @@ Second Page -
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
-**Test Case 15:** Game Over Conditions met audio 
+**Test Case 11:** Click to restart function works on 'Victory' condition
 
 Landing Page - 
-- Expected Behaviour: If all card pairs have not been successfully matched within 100 seconds the game should end and the background music should stop playing and the 'Game Over   Sound' audio wav file should be played.
-- Observed Results: When user failed to match all the pairs within 100 seconds the game ended and the background music stopped playing and the 'Game Over' sound played.
+- Expected Behaviour: If the 'Victory' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the       timer to 100 seconds,the flip counter to zero).
+- Observed Results: When the 'Victory' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0 and   all the cards were face down again and set in new places.  
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Second Page - 
-- Expected Behaviour: If all card pairs have not been successfully matched within 100 seconds the game should end and the background music should stop playing and the 'Game Over   Sound' audio wav file should be played.
-- Observed Results: When user failed to match all the pairs within 100 seconds the game ended and the background music stopped playing and the 'Game Over' sound played.
+- Expected Behaviour: If the 'Victory' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the       timer to 100 seconds,the flip counter to zero).
+- Observed Results: When the 'Victory' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0 and   all the cards were face down again and set in new places.  
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
-**Test Case 16:** Click to restart function works on 'Victory' condition
+**Test Case 12:** Click to restart function works on 'Game Over' condition
 
 Landing Page - 
-- Expected Behaviour: If the 'Victory' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the       timer to 100 seconds,the flip counter to zero and restarting the background music).
-- Observed Results: When the 'Victory' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0 and   all the cards were face down again and set in new places. The background music also began to play again from the beginning. 
+- Expected Behaviour: If the 'Game Over' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the     timer to 100 seconds,the flip counter to zero).
+- Observed Results: When the 'Game Over' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0     and all the cards were face down again and set in new places.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 Second Page - 
-- Expected Behaviour: If the 'Victory' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the       timer to 100 seconds,the flip counter to zero and restarting the background music).
-- Observed Results: When the 'Victory' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0 and   all the cards were face down again and set in new places. The background music also began to play again from the beginning. 
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
-
-**Test Case 17:** Click to restart function works on 'Game Over' condition
-
-Landing Page - 
-- Expected Behaviour: If the 'Game Over' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the     timer to 100 seconds,the flip counter to zero and restarting the background music).
-- Observed Results: When the 'Game Over' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0     and all the cards were face down again and set in new places.The background music also began to play again from the beginning. 
-- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
-
-Second Page - 
-- Expected Behaviour: If the 'Game Over' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the     timer to 100 seconds, the flip counter to zero and restarting the background music).
-- Observed Results: When the 'Game Over' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0     and all the cards were face down again and set in new places. The background music also began to play again from the beginning. 
+- Expected Behaviour: If the 'Game Over' overlay is clicked the game should reset itself, reshuffle the cards and be initialised again from the start (including resetting the     timer to 100 seconds, the flip counter to zero).
+- Observed Results: When the 'Game Over' overlay was clicked the game began again from the very beginning. The timer was reset to 100 seconds, the flip counter was reset to 0     and all the cards were face down again and set in new places. 
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
-**Test Case 18:** Click on navigation buttons
+**Test Case 13:** Click on navigation buttons
 
 Landing Page - 
 - Expected Behaviour: If the user clicks on the 'French' button they should be brought to the 'Second' page of the website where the game is available in French. If they click     on the 'Contact' button they will be brought to the Contact page.
@@ -516,7 +453,7 @@ Contact Page -
 - Observed Results: When the 'Irish' button was pressed the user was brought to the correct page where game was available in Irish. When the 'French' button was pressed the user   was brought to the correct page where game was available in French.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
-**Test Case 19:** Feedback on navigation buttons
+**Test Case 14:** Feedback on navigation buttons
 
 Landing Page - 
 - Expected Behaviour: The current page the user is on should be indicated to the user through colour feedback on the buttons on the top of the page. The current page they are     on should have a golden font to indicate this (whereas the other pages should have white font in the text on the buttons).
@@ -533,11 +470,19 @@ Contact Page -
 - Observed Results: When the user is on the 'Contact' page the button at the top saying 'Contact' is coloured in gold while the two other button texts remain white in colour.
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
-**Test Case 20:** Contact Page functionality
+**Test Case 15:** Contact Page functionality
 
 Contact Page - 
 - Expected Behaviour: The page should display three input boxes with 'Name','Email' and 'Feedback' placeholders. They should all have the 'required text' function and the submit button should not be able to be pressed until all fields have been filled. When the 'Send Feedback' button is pressed an email which contains all the fields should be sent to the authors email address and formatted in the preset format. When an email is sent the fields should return to empty, except the bottom field which should be replaced with 'We have received your email. Thank you for your feedback :) '.
 - Observed Results: When the user tried to click the 'Send Feedback' button on the form without filling in any of the three fields the website would not allow user to click button. When all fields were filled the button could be clicked and the form went blank in the 'Name' and 'Email' fields and in the bottom text field a message saying 'We have received your email. Thank you for your feedback :)' appeared. When this happned an email was sent and was received in the inbox of the author. This email was formatted in the correct way that it had been set up on JQuery.
+- Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
+
+
+**Test Case 16:** Error 404 Page
+
+Error 404 Page - 
+- Expected Behaviour: If a user inputs an incorrect HTML the custom 'Error 404' HTML page should be displayed, including navigation back to other pages of website. 
+- Observed Results: When an incorrect HTML was entered the user was redirected to custom Error 404 page, which had buttons on top to re-direct back to all other pages of website.  
 - Test Summary: There was no outstanding differences between the expected behaviour of this test and the observed results. 
 
 
@@ -562,7 +507,7 @@ Though the sote was developed through Google Chrome, after it had been deployed 
 **Website user -**
 
 1. As a user I want a fun experience 
-- Game is fun to play, it includes enjoyable and upbeat music and cute images of animals on every card.
+- Game is fun to play, it includes unique and cute images of farmyard animals on every card.
 2. As a user I want to be able to play the game by being given the instructions needed but with as minimal instructions as possible
 - Game includes instructions in the startup overlay but doesn't overwhelm user with information
 3. As a website user I want to be able to navigate the website easily and intuitively
@@ -590,7 +535,7 @@ Though the sote was developed through Google Chrome, after it had been deployed 
 **Educators -**
 
 10. As an educator I want a learning resource that will engage my students
-- Through the use of custom graphics and music this website is engaging for users
+- Through the use of custom graphics this website is engaging for users
 11. As an educator I want a learning resource that will encourage my students to learn while having fun
 - This game encourages the user to remember where animals/words are which engages learning while also being fun to play
 12. As an educator I want a learning resource that is free and easy to access 
@@ -609,13 +554,16 @@ Though the sote was developed through Google Chrome, after it had been deployed 
 
 ### **BUG FIXES**
 
-The project contained three major bugs, these were - 
+The project contained four major bugs, these were - 
 
 BUG 1: Could not use 'a' element within the button tags due to an error on W3C markup validator. This bux was fixed by using a from instead of a an anchor tag and placing the button inside.
 
 BUG 2: Attribute 'defer' could not be used in link element (because there was no src link) to slow down when the Google fonts were loaded. No good fix was available for this so 'defer' was removed from this link and the performance of load was slightly reduced. 
 
 BUG 3: In CSS file a wrong media query width was included - this was deleted and there was no change to project (due to media size not being applicable). 
+
+BUG 4: On deployment there was a problem with the contact form on the Contact page, which continually gave errors and was not properly connected to host site. This bug was fixed by author through testing and rewriting code. 
+
 
 ### **IMPLEMENTATION ISSUES**
 
@@ -701,7 +649,6 @@ If you want to run this clone on a local machine you would go to the 'Clone' sec
 #### **Other Elements -**
 
 - Cooler.com - Colour scheme generator: (https://www.coolors.co/)
-- BeepBox - Creating music: (https://www.beepbox.co)
 - EmailJS - Email service for form input: (https://www.emailjs.com)
 
 ### **CONTENT**
@@ -710,7 +657,7 @@ All text content was written by author
 
 ### **MEDIA**
 
-All images and music were custom designed and created specifically for this project.
+All images were custom designed and created specifically for this project.
 
 ### **ACKNOWLEDGEMENTS**
 
