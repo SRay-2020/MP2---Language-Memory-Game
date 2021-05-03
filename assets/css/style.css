@@ -664,7 +664,12 @@ font-size: 2.25rem;
 /* ERROR 404 PAGE STYLES */
 
 .error-text {
-
-    text-align: center;
-    font-family: 'VT323', cursive;
+text-align: center;
+font-family: 'VT323', cursive;
+color: #0F4C5C;    
+font-size: 5.5rem;
+font-weight: 500;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(0, 0, 0);
+padding-bottom: 10rem;
 }
