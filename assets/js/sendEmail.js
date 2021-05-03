@@ -13,14 +13,14 @@ function sendMail(contactForm) {
             function(response) {
 
                 // Stack Overflow lesson - return empty fields
-                console.log("SUCCESS!", response);
+               
                 document.getElementById('fullname').value = '';
                 document.getElementById('emailaddress').value = '';
                 // // Returns a comment to user in feedback field to confirm email has sent 
                 document.getElementById('feedback-summary').value = 'We have received your email. Thank you for your feedback :)';
             },
             function(error) {
-                console.log("FAILED", error);
+               document.getElementById('feedback-summary').value = 'Sorry, there has been an error with your feedback submission :( ';
             }
         );
 
