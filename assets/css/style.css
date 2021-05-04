@@ -665,11 +665,10 @@ font-size: 2.25rem;
 
 .error-text {
 text-align: center;
-font-family:'RocknRoll One', sans-serif!important; 
 color: #0F4C5C;    
-font-size: 3rem;
+font-size: 2.5rem;
 font-weight: 500;
--webkit-text-stroke-width: 2px;
+-webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: rgb(0, 0, 0);
 padding-bottom: 10rem;
 }
