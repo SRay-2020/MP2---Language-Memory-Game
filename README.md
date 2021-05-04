@@ -175,7 +175,7 @@ A fun and interactive aesthetic was utilised for this project.  The desired effe
 
 ### **FUTURE FEATURES**
 
-- Game to include a play music function with audio (including background music and audio cues)
+- Game to include a play music function with audio (including background music and audio cues) when appropriate license free music can be obtained
 - User name prompt and input to be used and stored
 - User scores (number of flips) to be stored and displayed in a highscore field
 - Learned words feature which displays which cards have been matched and the corresponding words for those animals
@@ -622,7 +622,7 @@ If you want to run this clone on a local machine you would go to the 'Clone' sec
 
 **Lighthouse Issues**
 - Web.dev: (https://web.dev/image-aspect-ratio/?utm_source=lighthouse&utm_medium=devtools)
-- 
+
 **Managing Overlays**
 - StackOverflow: (https://stackoverflow.com/questions/40311152/how-do-i-manage-multiple-overlays-on-different-buttons-clicks)
 
